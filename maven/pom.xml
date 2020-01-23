@@ -33,13 +33,6 @@
             <artifactId>xmlbeans</artifactId>
             <version>3.1.0</version>
         </dependency>
-        <dependency>
-            <groupId>org.oasisOpen.docs.wsbpel.x20.process.executable</groupId>
-            <artifactId>example-app</artifactId>
-            <version>1.0</version>
-            <scope>system</scope>
-            <systemPath>${basedir}/lib/yourJar.jar</systemPath>
-        </dependency>
     </dependencies>
 
 </project>
