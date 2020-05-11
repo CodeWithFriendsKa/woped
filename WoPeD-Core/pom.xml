@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.woped</groupId>
+	<artifactId>WoPeD-Core</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>WoPeD-Core</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+
+	<dependencies>
+
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>2.3.0</version>
+		</dependency>
+		
+		<dependency>
+			<groupId>PLATZHALTER</groupId>
+			<artifactId>confBeans</artifactId>
+			<version>0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/confBeans.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>PLATZHALTER</groupId>
+			<artifactId>bpelBeans</artifactId>
+			<version>0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/bpelBeans.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>PLATZHALTER</groupId>
+			<artifactId>jgraph</artifactId>
+			<version>5.10.2</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/jgraph-5.10.2.jar</systemPath>
+		</dependency>
+	</dependencies>
+</project>

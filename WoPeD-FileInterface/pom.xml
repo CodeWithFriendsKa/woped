@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+	<groupId>org.woped</groupId>
+	<artifactId>WoPeD-FileInterface</artifactId>
+	<version>0.0.1-SNAPSHOT</version>
+	<packaging>jar</packaging>
+
+	<name>WoPeD-FileInterface</name>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+		<maven.compiler.target>1.8</maven.compiler.target>
+		<maven.compiler.source>1.8</maven.compiler.source>
+	</properties>
+
+	<dependencies>
+		<dependency>
+			<groupId>net.coderazzi</groupId>
+			<artifactId>tablefilter-swing</artifactId>
+			<version>5.1.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.swinglabs</groupId>
+			<artifactId>swingx</artifactId>
+			<version>1.6.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>PLATZHALTER</groupId>
+			<artifactId>pnmlBeans</artifactId>
+			<version>0</version>
+			<scope>system</scope>
+			<systemPath>${project.basedir}/src/main/resources/pnmlBeans.jar</systemPath>
+		</dependency>
+
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>WoPeD-Editor</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>WoPeD-QuantAnalysis</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>WoPeD-BPELExport</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>WoPeD-AProMoRe</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>WoPeD-Configuration</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>WoPeD-ProcessMetrics</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>WoPeD-GUI</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>WoPeD-Core</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>WoPeD-QualAnalysis</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
+	</dependencies>
+</project>
