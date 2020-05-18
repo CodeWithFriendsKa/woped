@@ -4,10 +4,10 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<groupId>org.woped</groupId>
 	<artifactId>WoPeD-AProMoRe</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
 	<packaging>jar</packaging>
+	<groupId>org.woped</groupId>
+	<version>0.0.1-SNAPSHOT</version>
 
 	<name>WoPeD-AProMoRe</name>
 
@@ -23,22 +23,6 @@
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-oxm</artifactId>
 			<version>3.2.5.RELEASE</version>
-		</dependency>
-
-		<dependency>
-			<groupId>PLATZHALTER</groupId>
-			<artifactId>spring-ws-core</artifactId>
-			<version>2.1.4.RELEASE</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/spring-ws-core-2.1.4.RELEASE.jar</systemPath>
-		</dependency>
-
-		<dependency>
-			<groupId>PLATZHALTER</groupId>
-			<artifactId>confBeans</artifactId>
-			<version>0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/confBeans.jar</systemPath>
 		</dependency>
 
 		<dependency>
@@ -69,6 +53,12 @@
 			<groupId>org.apache.httpcomponents</groupId>
 			<artifactId>httpclient</artifactId>
 			<version>4.3.1</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>WoPeD-CommonLibs</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
 		</dependency>
 
 		<dependency>
