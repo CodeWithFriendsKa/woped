@@ -1,12 +1,12 @@
 package org.woped.core.controller;
 
-import org.woped.core.Constants;
-import org.woped.core.utilities.LoggerManager;
-
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
+
+import org.woped.core.Constants;
+import org.woped.core.utilities.LoggerManager;
 
 /**
  * The VEPController is a registry for {@link AbstractEventProcessor}s.

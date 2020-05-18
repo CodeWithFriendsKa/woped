@@ -1,5 +1,8 @@
 package org.woped.qualanalysis.soundness.builder.lowlevelpetrinet;
 
+import java.util.Iterator;
+import java.util.Set;
+
 import org.woped.core.controller.IEditor;
 import org.woped.core.model.ModelElementContainer;
 import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
@@ -12,9 +15,6 @@ import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
 import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
 import org.woped.qualanalysis.structure.NetAlgorithms;
 import org.woped.qualanalysis.structure.StructuralAnalysis;
-
-import java.util.Iterator;
-import java.util.Set;
 
 /**
  * creates an LowLevelPetriNet. uses logic from the {@link StructuralAnalysis}

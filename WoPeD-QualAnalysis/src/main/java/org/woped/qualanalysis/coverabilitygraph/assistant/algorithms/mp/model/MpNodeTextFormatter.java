@@ -1,7 +1,7 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model;
 
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.DefaultNodeTextFormatter;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 /**
  * Decorates the textual representation of a {@link MpNode} with additional information about its analysis.

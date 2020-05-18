@@ -1,5 +1,16 @@
 package org.woped.qualanalysis.coverabilitygraph.gui;
 
+import static org.pushingpixels.flamingo.api.ribbon.RibbonElementPriority.TOP;
+
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+
+import javax.swing.ImageIcon;
+import javax.swing.event.InternalFrameAdapter;
+import javax.swing.event.InternalFrameEvent;
+
 import org.pushingpixels.flamingo.api.common.JCommandButton;
 import org.pushingpixels.flamingo.api.common.JCommandMenuButton;
 import org.pushingpixels.flamingo.api.common.RichTooltip;
@@ -17,7 +28,15 @@ import org.woped.core.controller.AbstractApplicationMediator;
 import org.woped.core.controller.AbstractViewEvent;
 import org.woped.core.controller.ViewEvent;
 import org.woped.core.utilities.LoggerManager;
-import org.woped.gui.images.svg.*;
+import org.woped.gui.images.svg.editor_undo;
+import org.woped.gui.images.svg.file_close;
+import org.woped.gui.images.svg.file_exportas;
+import org.woped.gui.images.svg.help_configuration;
+import org.woped.gui.images.svg.layout;
+import org.woped.gui.images.svg.refresh;
+import org.woped.gui.images.svg.zoom_chooser;
+import org.woped.gui.images.svg.zoom_in;
+import org.woped.gui.images.svg.zoom_out;
 import org.woped.gui.translations.Messages;
 import org.woped.qualanalysis.Constants;
 import org.woped.qualanalysis.coverabilitygraph.events.CoverabilityGraphEventListener;
@@ -25,15 +44,6 @@ import org.woped.qualanalysis.coverabilitygraph.gui.layout.circular.CircularLayo
 import org.woped.qualanalysis.coverabilitygraph.gui.layout.hierarchic.HierarchicLayout;
 import org.woped.qualanalysis.coverabilitygraph.gui.layout.tree.TreeLayout;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.CoverabilityGraphViewEvents;
-
-import javax.swing.*;
-import javax.swing.event.InternalFrameAdapter;
-import javax.swing.event.InternalFrameEvent;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
-import static org.pushingpixels.flamingo.api.ribbon.RibbonElementPriority.TOP;
 
 /**
  * This class creates and operates the ribbon bar for the coverability graph

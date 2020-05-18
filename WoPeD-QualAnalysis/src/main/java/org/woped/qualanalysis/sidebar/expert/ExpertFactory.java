@@ -1,5 +1,10 @@
 package org.woped.qualanalysis.sidebar.expert;
 
+import java.util.Collection;
+import java.util.Set;
+
+import javax.swing.tree.DefaultMutableTreeNode;
+
 import org.woped.core.model.ArcModel;
 import org.woped.gui.translations.Messages;
 import org.woped.qualanalysis.service.IQualanalysisService;
@@ -7,10 +12,6 @@ import org.woped.qualanalysis.sidebar.expert.components.ArcGroupInfo;
 import org.woped.qualanalysis.sidebar.expert.components.NetInfo;
 import org.woped.qualanalysis.sidebar.expert.components.NodeGroupListNetInfo;
 import org.woped.qualanalysis.sidebar.expert.components.NodeGroupNetInfo;
-
-import javax.swing.tree.DefaultMutableTreeNode;
-import java.util.Collection;
-import java.util.Set;
 
 /**
  * factory containing methods to create the expert page

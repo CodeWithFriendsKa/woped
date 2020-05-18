@@ -1,22 +1,13 @@
 package org.woped.quantana.dashboard.webserver;
 
-import com.google.gson.Gson;
-
 import org.woped.core.utilities.LoggerManager;
-import org.woped.quantana.dashboard.webserver.ThinServerAction;
-import org.woped.quantana.dashboard.webserver.Request;
-import org.woped.quantana.dashboard.webserver.Response;
 import org.woped.quantana.dashboard.storage.AjaxAction;
 import org.woped.quantana.dashboard.storage.AjaxActionDeleteTables;
-import org.woped.quantana.dashboard.storage.AjaxActionDeleteTables.Parameter;
 import org.woped.quantana.dashboard.storage.Constants;
 import org.woped.quantana.dashboard.storage.SaveConfig;
 import org.woped.quantana.dashboard.storage.TableInfo;
-import org.woped.quantana.dashboard.storage.StorageEngine;
-//import org.woped.quantana.gui.EmbeddedBrowserView;
-import org.woped.quantana.gui.JFXUsageNotSupported;
 
-import java.io.*;
+import com.google.gson.Gson;
 
 public class PostRequestAction extends ThinServerAction {
 

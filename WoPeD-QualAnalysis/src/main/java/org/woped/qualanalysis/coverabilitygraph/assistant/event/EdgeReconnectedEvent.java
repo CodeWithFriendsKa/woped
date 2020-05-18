@@ -1,9 +1,9 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.event;
 
+import java.util.EventObject;
+
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-
-import java.util.EventObject;
 
 /**
  * An event which indicates that an edge has been reconnected in the coverability graph.

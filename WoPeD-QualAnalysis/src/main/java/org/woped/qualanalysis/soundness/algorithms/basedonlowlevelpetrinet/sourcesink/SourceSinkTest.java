@@ -1,12 +1,12 @@
 package org.woped.qualanalysis.soundness.algorithms.basedonlowlevelpetrinet.sourcesink;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import org.woped.qualanalysis.soundness.algorithms.basedonlowlevelpetrinet.AbstractLowLevelPetriNetTest;
 import org.woped.qualanalysis.soundness.datamodel.ILowLevelPetriNet;
 import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
 import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
-
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * @see ISourceSinkTest

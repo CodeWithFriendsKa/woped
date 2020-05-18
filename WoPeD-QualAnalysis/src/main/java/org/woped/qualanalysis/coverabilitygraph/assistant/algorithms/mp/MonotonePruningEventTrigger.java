@@ -1,8 +1,18 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp;
 
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
+
 import org.jgraph.graph.AttributeMap;
 import org.woped.qualanalysis.coverabilitygraph.assistant.CoverabilityGraphAssistant;
-import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.*;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.CoverCheckCompletedEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.DeactivationCheckCompletedEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.DescendantsCheckCompletedEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.MonotonePruningAnalysisListener;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.NodeRelatedEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.OmegaCheckEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.ParentCheckCompletedEvent;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
 import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphListener;
 import org.woped.qualanalysis.coverabilitygraph.assistant.event.EdgeModifiedEvent;
@@ -14,10 +24,6 @@ import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
 import org.woped.qualanalysis.soundness.marking.IMarking;
-
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * This class triggers the events to notify listeners on graph or analysis events.

@@ -1,9 +1,13 @@
 package org.woped.qualanalysis.soundness.algorithms.generic.scc;
 
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.Stack;
+
 import org.woped.qualanalysis.soundness.algorithms.generic.INode;
 import org.woped.qualanalysis.soundness.algorithms.generic.INodeNet;
-
-import java.util.*;
 
 /**
  * indicates strongly connected components in a generic net. uses the tarjan algorithm.

@@ -1,9 +1,15 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.layout.tree;
 
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-
 import java.awt.geom.Rectangle2D;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 /**
  * This class applies a tree like layout to graph that contains loops.

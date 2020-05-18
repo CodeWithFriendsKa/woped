@@ -2,6 +2,7 @@ package org.woped.quantana.sim;
 
 import java.util.ArrayList;
 import java.util.LinkedList;
+
 import org.woped.quantana.resourcealloc.Resource;
 
 import umontreal.iro.lecuyer.rng.MRG32k3a;

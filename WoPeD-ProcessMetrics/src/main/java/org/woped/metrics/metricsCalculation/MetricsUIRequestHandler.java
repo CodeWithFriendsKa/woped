@@ -18,12 +18,12 @@ import org.woped.core.config.ConfigurationManager;
 import org.woped.core.config.IMetricsConfiguration;
 import org.woped.core.controller.IEditor;
 import org.woped.core.model.ModelElementContainer;
+import org.woped.gui.translations.Messages;
 import org.woped.metrics.exceptions.CalculateFormulaException;
 import org.woped.metrics.exceptions.NaNException;
 import org.woped.metrics.helpers.LabeledFileFilter;
 import org.woped.metrics.metricsCalculation.UITypes.UIMetricsGroup;
 import org.woped.metrics.metricsCalculation.UITypes.UIThreshold;
-import org.woped.gui.translations.Messages;
 
 /**
  * Please note:

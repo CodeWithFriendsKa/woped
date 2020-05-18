@@ -1,16 +1,34 @@
 package org.woped.editor.controller;
 
-import org.woped.core.model.ArcModel;
-import org.woped.editor.controller.vc.EditorVC;
-import org.woped.gui.lookAndFeel.WopedButton;
-import org.woped.gui.translations.Messages;
-
-import javax.swing.*;
-import java.awt.*;
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+import java.awt.FlowLayout;
+import java.awt.Frame;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.Insets;
+import java.awt.Point;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.KeyEvent;
 import java.awt.event.KeyListener;
+
+import javax.swing.BorderFactory;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JSpinner;
+import javax.swing.JTextField;
+import javax.swing.SpinnerModel;
+import javax.swing.SpinnerNumberModel;
+import javax.swing.SwingConstants;
+
+import org.woped.core.model.ArcModel;
+import org.woped.editor.controller.vc.EditorVC;
+import org.woped.gui.lookAndFeel.WopedButton;
+import org.woped.gui.translations.Messages;
 
 @SuppressWarnings("serial")
 public class ArcPropertyEditor extends JDialog {

@@ -1,13 +1,13 @@
 package org.woped.core.model.petrinet;
 
+import java.util.Iterator;
+
 import org.jgraph.graph.DefaultPort;
 import org.woped.core.Constants;
 import org.woped.core.model.CreationMap;
 import org.woped.core.model.ModelElementContainer;
 import org.woped.core.model.PetriNetModelProcessor;
 import org.woped.core.utilities.LoggerManager;
-
-import java.util.Iterator;
 
 @SuppressWarnings("serial")
 public class XORJoinOperatorTransitionModel extends OperatorTransitionModel {

@@ -1,10 +1,13 @@
 package org.woped.core.gui;
 
+import java.awt.Component;
+import java.awt.Container;
+import java.awt.Dimension;
+import java.awt.Rectangle;
+import java.util.List;
+
 import org.woped.core.controller.AbstractApplicationMediator;
 import org.woped.core.controller.IEditor;
-
-import java.awt.*;
-import java.util.List;
 
 
 public interface IUserInterface extends IEditorAware

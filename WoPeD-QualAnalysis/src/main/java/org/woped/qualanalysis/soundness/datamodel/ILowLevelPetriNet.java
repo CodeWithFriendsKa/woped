@@ -1,9 +1,9 @@
 package org.woped.qualanalysis.soundness.datamodel;
 
-import org.woped.qualanalysis.soundness.algorithms.generic.INodeNet;
-
 import java.util.Set;
 import java.util.SortedSet;
+
+import org.woped.qualanalysis.soundness.algorithms.generic.INodeNet;
 
 /**
  * This interface represents a classic petri net.

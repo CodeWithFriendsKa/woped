@@ -1,20 +1,27 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.views;
 
-import org.jgraph.JGraph;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-import org.woped.qualanalysis.coverabilitygraph.events.*;
-import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraph;
-import org.woped.qualanalysis.coverabilitygraph.gui.ZoomController;
-
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Dimension;
+import java.awt.GridBagLayout;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.awt.event.MouseWheelEvent;
 import java.awt.geom.Point2D;
 import java.util.Collection;
 import java.util.LinkedList;
+
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+
+import org.jgraph.JGraph;
+import org.woped.qualanalysis.coverabilitygraph.events.CoverabilityGraphMouseAdapter;
+import org.woped.qualanalysis.coverabilitygraph.events.CoverabilityGraphMouseListener;
+import org.woped.qualanalysis.coverabilitygraph.events.EdgeClickedEvent;
+import org.woped.qualanalysis.coverabilitygraph.events.EmptySpaceClickedEvent;
+import org.woped.qualanalysis.coverabilitygraph.events.NodeClickedEvent;
+import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraph;
+import org.woped.qualanalysis.coverabilitygraph.gui.ZoomController;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 /**
  * This class wraps an {@link CoverabilityGraph} and provides additional functionality like zooming or scrolling to it.

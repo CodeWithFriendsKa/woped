@@ -9,10 +9,13 @@ import java.awt.event.ActionListener;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 
-import javax.swing.*;
+import javax.swing.Action;
+import javax.swing.JCheckBox;
+import javax.swing.JPanel;
+import javax.swing.JToggleButton;
+import javax.swing.UIManager;
 
 import org.jdesktop.swingx.JXCollapsiblePane;
-
 import org.woped.core.controller.AbstractApplicationMediator;
 import org.woped.file.apromore.worker.ImportWorker;
 import org.woped.gui.lookAndFeel.WopedButton;

@@ -1,15 +1,19 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.layout.circular;
 
+import java.awt.Dimension;
+import java.awt.Point;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+
 import org.jgraph.graph.AttributeMap;
 import org.jgraph.graph.GraphConstants;
 import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraph;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 import org.woped.qualanalysis.coverabilitygraph.gui.layout.CoverabilityGraphLayoutBase;
-
-import java.awt.*;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.util.*;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 public class CircularLayout extends CoverabilityGraphLayoutBase {
 

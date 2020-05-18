@@ -2,8 +2,6 @@ package org.woped.editor.controller;
 
 import java.util.HashSet;
 import java.util.Set;
-import org.woped.editor.controller.Role;
-import org.woped.editor.controller.Group;
 
 /**
  * The logical model created in the background - this model is the basis for the work of the Layouting Algorithm

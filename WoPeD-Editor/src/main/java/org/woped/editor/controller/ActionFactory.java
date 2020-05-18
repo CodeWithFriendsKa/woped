@@ -1,15 +1,18 @@
 package org.woped.editor.controller;
 
-import org.woped.editor.action.EditorViewEvent;
+import java.awt.event.ActionEvent;
+import java.util.HashMap;
+
+import javax.swing.Action;
+import javax.swing.JComponent;
+import javax.swing.JInternalFrame;
+
 import org.woped.core.controller.AbstractApplicationMediator;
 import org.woped.core.controller.AbstractViewEvent;
 import org.woped.core.controller.IEditor;
+import org.woped.editor.action.EditorViewEvent;
 import org.woped.editor.action.WoPeDAction;
 import org.woped.editor.controller.vc.EditorVC;
-
-import javax.swing.*;
-import java.awt.event.ActionEvent;
-import java.util.HashMap;
 
 public class ActionFactory
 {

@@ -1,11 +1,18 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.views;
 
+import java.awt.FlowLayout;
+import java.awt.event.ActionEvent;
+
+import javax.swing.AbstractAction;
+import javax.swing.Action;
+import javax.swing.BorderFactory;
+import javax.swing.ImageIcon;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+
 import org.woped.gui.translations.Messages;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphModel;
-
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
 
 /**
  * This class encapsulates the status bar of the coverability graph view.

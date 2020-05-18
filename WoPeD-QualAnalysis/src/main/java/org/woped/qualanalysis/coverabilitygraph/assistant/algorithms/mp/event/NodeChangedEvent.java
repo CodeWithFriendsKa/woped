@@ -1,9 +1,9 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event;
 
+import java.util.EventObject;
+
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNodeState;
-
-import java.util.EventObject;
 
 /**
  * Event that indicates, that a node has changed its state during the processing of the current node.

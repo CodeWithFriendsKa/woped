@@ -1,15 +1,20 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.layout.tree;
 
+import java.awt.geom.Rectangle2D;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 import org.abego.treelayout.Configuration;
 import org.abego.treelayout.util.DefaultConfiguration;
 import org.jgraph.graph.AttributeMap;
 import org.jgraph.graph.GraphConstants;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 import org.woped.qualanalysis.coverabilitygraph.gui.layout.CoverabilityGraphLayoutBase;
 import org.woped.qualanalysis.coverabilitygraph.gui.layout.CoverabilityGraphLayoutSettings;
-
-import java.awt.geom.Rectangle2D;
-import java.util.*;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 /**
  * Applies a tree like layout to the graph. Works for trees and for graphs.

@@ -1,8 +1,8 @@
 package org.woped.qualanalysis.coverabilitygraph.events;
 
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-
 import java.util.EventObject;
+
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 /**
  * An event which indicates that something happened to an node in a coverability graph.

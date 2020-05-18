@@ -1,8 +1,9 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.sidebar;
 
-import org.woped.gui.translations.Messages;
+import javax.swing.AbstractAction;
+import javax.swing.Action;
 
-import javax.swing.*;
+import org.woped.gui.translations.Messages;
 
 /**
  * This class is in charge of displaying the internationalized button text and tooltip for sidebar actions.

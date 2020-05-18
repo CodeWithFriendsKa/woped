@@ -1,7 +1,8 @@
 package org.woped.tests.quantana.storage.archivefilter;
 
 
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertArrayEquals;
+import static org.junit.Assert.assertNull;
 
 import org.junit.Before;
 import org.junit.Test;

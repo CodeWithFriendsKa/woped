@@ -1,11 +1,17 @@
 package org.woped.editor.controller.bpel;
 
-import inspireit.uddi.base.*;
-import inspireit.uddi.collections.*;
-import inspireit.uddi.request.*;
-import inspireit.uddi.request.base.*;
-import inspireit.uddi.response.*;
-import inspireit.uddi.response.base.*;
+import inspireit.uddi.base.Name;
+import inspireit.uddi.base.UDDIException;
+import inspireit.uddi.collections.BusinessInfos;
+import inspireit.uddi.collections.FindQualifiers;
+import inspireit.uddi.collections.Names;
+import inspireit.uddi.collections.ServiceInfos;
+import inspireit.uddi.request.UDDIProfile;
+import inspireit.uddi.request.UDDIQuerier;
+import inspireit.uddi.request.base.FindQualifier;
+import inspireit.uddi.response.BusinessList;
+import inspireit.uddi.response.base.BusinessInfo;
+import inspireit.uddi.response.base.ServiceInfo;
 
 /**
  * @author Alexander Roßwog

@@ -3,12 +3,10 @@ package org.woped.quantana.gui;
 import java.awt.Container;
 import java.awt.Dialog;
 import java.awt.Dimension;
-import java.awt.Font;
 import java.awt.GridBagConstraints;
 import java.awt.GridBagLayout;
 import java.awt.Insets;
 import java.awt.Rectangle;
-
 import java.util.HashMap;
 
 import javax.swing.JDialog;
@@ -24,8 +22,8 @@ import org.jfree.data.general.PieDataset;
 import org.jfree.data.xy.XYDataset;
 import org.jfree.data.xy.XYSeries;
 import org.jfree.data.xy.XYSeriesCollection;
-import org.woped.gui.translations.Messages;
 import org.woped.core.config.DefaultStaticConfiguration;
+import org.woped.gui.translations.Messages;
 import org.woped.quantana.sim.SimReportServerStats;
 import org.woped.quantana.sim.SimReportStats;
 import org.woped.quantana.sim.SimRunner;

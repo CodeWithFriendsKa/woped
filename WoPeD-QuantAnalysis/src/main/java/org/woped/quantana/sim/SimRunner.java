@@ -14,9 +14,6 @@ import org.woped.quantana.resourcealloc.ResourceUtilization;
 import umontreal.iro.lecuyer.rng.MRG32k3a;
 import umontreal.iro.lecuyer.rng.RandomStream;
 
-import org.woped.quantana.sim.SimLog;
-import org.woped.quantana.sim.SimLogEvent;
-
 
 public class SimRunner implements Runnable{
 	public static final int Q_FIFO = 0;

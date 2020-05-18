@@ -12,10 +12,10 @@ import org.jgraph.graph.VertexRenderer;
 import org.woped.core.config.DefaultStaticConfiguration;
 import org.woped.core.controller.IEditor;
 import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
-import org.woped.core.model.petrinet.TransitionModel;
-import org.woped.core.model.petrinet.TriggerModel;
 import org.woped.core.model.petrinet.Toolspecific.OperatorDirection;
 import org.woped.core.model.petrinet.Toolspecific.OperatorPosition;
+import org.woped.core.model.petrinet.TransitionModel;
+import org.woped.core.model.petrinet.TriggerModel;
 import org.woped.core.view.AbstractElementView;
 
 

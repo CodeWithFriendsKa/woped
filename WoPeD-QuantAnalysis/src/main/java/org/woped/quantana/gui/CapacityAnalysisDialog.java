@@ -39,6 +39,7 @@ import org.woped.core.model.PetriNetModelProcessor;
 import org.woped.core.model.petrinet.ResourceClassModel;
 import org.woped.core.model.petrinet.TransitionModel;
 import org.woped.core.utilities.LoggerManager;
+import org.woped.gui.translations.Messages;
 import org.woped.quantana.Constants;
 import org.woped.quantana.graph.Arc;
 import org.woped.quantana.graph.Key;
@@ -52,7 +53,6 @@ import org.woped.quantana.resourcealloc.AllocationTable;
 import org.woped.quantana.resourcealloc.ResourceAllocation;
 import org.woped.quantana.resourcealloc.ResourceClassTaskAllocation;
 import org.woped.quantana.resourcealloc.ResourceClassTaskAllocationTable;
-import org.woped.gui.translations.Messages;
 
 public class CapacityAnalysisDialog extends JDialog {
 

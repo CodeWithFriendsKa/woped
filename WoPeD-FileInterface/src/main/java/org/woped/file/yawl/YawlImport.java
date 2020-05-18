@@ -12,12 +12,36 @@ import java.util.List;
 import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
-import javax.xml.bind.*;
 
-import org.woped.file.yawl.model.*;
+import javax.xml.bind.JAXBContext;
+import javax.xml.bind.JAXBElement;
+import javax.xml.bind.JAXBException;
+import javax.xml.bind.Unmarshaller;
+
+import org.woped.file.yawl.model.DecompositionType;
+import org.woped.file.yawl.model.ExternalConditionFactsType;
+import org.woped.file.yawl.model.ExternalNetElementFactsType;
+import org.woped.file.yawl.model.ExternalTaskFactsType;
+import org.woped.file.yawl.model.FlowsIntoType;
+import org.woped.file.yawl.model.LayoutContainerFactsType;
+import org.woped.file.yawl.model.LayoutDecoratorFactsType;
 import org.woped.file.yawl.model.LayoutFactsType.Specification;
-import org.woped.file.yawl.wfnet.*;
+import org.woped.file.yawl.model.LayoutFlowFactsType;
+import org.woped.file.yawl.model.LayoutFrameType;
+import org.woped.file.yawl.model.LayoutLabelFactsType;
+import org.woped.file.yawl.model.LayoutNetFactsType;
+import org.woped.file.yawl.model.LayoutRectangleType;
+import org.woped.file.yawl.model.LayoutVertexFactsType;
+import org.woped.file.yawl.model.NetFactsType;
+import org.woped.file.yawl.model.OutputConditionFactsType;
+import org.woped.file.yawl.model.SpecificationSetFactsType;
+import org.woped.file.yawl.model.YAWLSpecificationFactsType;
+import org.woped.file.yawl.wfnet.Place;
+import org.woped.file.yawl.wfnet.Rectangle;
+import org.woped.file.yawl.wfnet.Transition;
 import org.woped.file.yawl.wfnet.Transition.JoinSplitType;
+import org.woped.file.yawl.wfnet.WfNet;
+import org.woped.file.yawl.wfnet.WfNetNode;
 
 /**
  *

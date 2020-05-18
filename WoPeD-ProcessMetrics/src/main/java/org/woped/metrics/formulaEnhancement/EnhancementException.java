@@ -1,7 +1,7 @@
 package org.woped.metrics.formulaEnhancement;
 
-import org.woped.metrics.exceptions.CalculateFormulaException;
 import org.woped.gui.translations.Messages;
+import org.woped.metrics.exceptions.CalculateFormulaException;
 
 public class EnhancementException extends CalculateFormulaException {
 	/**

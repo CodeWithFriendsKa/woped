@@ -1,9 +1,9 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.event;
 
+import java.util.EventListener;
+
 import org.woped.qualanalysis.coverabilitygraph.events.EdgeEvent;
 import org.woped.qualanalysis.coverabilitygraph.events.NodeEvent;
-
-import java.util.EventListener;
 
 /**
  * The listener interface for receiving coverability graph events.

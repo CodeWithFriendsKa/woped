@@ -1,22 +1,23 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.views;
 
-import org.jgraph.graph.AttributeMap;
-import org.jgraph.graph.DefaultGraphCell;
-import org.jgraph.graph.GraphConstants;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphModel;
-import org.woped.qualanalysis.coverabilitygraph.events.CoverabilityGraphMouseListener;
-import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraphSettings;
-import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraphVC;
-import org.woped.qualanalysis.coverabilitygraph.gui.ZoomController;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-import org.woped.qualanalysis.soundness.marking.IMarking;
-
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Color;
 import java.util.Collection;
 import java.util.HashMap;
 import java.util.LinkedList;
 import java.util.Map;
+
+import javax.swing.JPanel;
+
+import org.jgraph.graph.AttributeMap;
+import org.jgraph.graph.DefaultGraphCell;
+import org.jgraph.graph.GraphConstants;
+import org.woped.qualanalysis.coverabilitygraph.events.CoverabilityGraphMouseListener;
+import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraphSettings;
+import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraphVC;
+import org.woped.qualanalysis.coverabilitygraph.gui.ZoomController;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphModel;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
+import org.woped.qualanalysis.soundness.marking.IMarking;
 
 /**
  * This class defines the public functionality of an coverability graph view that can be registered in a {@link CoverabilityGraphVC}.

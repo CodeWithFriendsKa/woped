@@ -31,7 +31,10 @@ package org.pushingpixels.flamingo.api.svg;
 
 import java.awt.Dimension;
 import java.awt.image.BufferedImage;
-import java.io.*;
+import java.io.ByteArrayInputStream;
+import java.io.ByteArrayOutputStream;
+import java.io.IOException;
+import java.io.InputStream;
 import java.net.URL;
 import java.util.zip.GZIPInputStream;
 

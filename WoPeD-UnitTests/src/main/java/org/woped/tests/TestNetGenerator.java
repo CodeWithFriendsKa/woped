@@ -1,6 +1,5 @@
 package org.woped.tests;
 
-import org.woped.core.controller.IEditor;
 import org.woped.core.model.CreationMap;
 import org.woped.core.model.PetriNetModelProcessor;
 import org.woped.core.model.petrinet.AbstractPetriNetElementModel;

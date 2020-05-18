@@ -1,14 +1,21 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.layout;
 
-import org.jgraph.graph.*;
-import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraph;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphModel;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-
 import java.awt.geom.Point2D;
 import java.awt.geom.Rectangle2D;
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Hashtable;
+import java.util.Map;
+
+import org.jgraph.graph.AttributeMap;
+import org.jgraph.graph.DefaultGraphCell;
+import org.jgraph.graph.GraphConstants;
+import org.jgraph.graph.GraphLayoutCache;
+import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraph;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphModel;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 /**
  * This class provides the common layout functionality to resize the nodes before doing the layout.

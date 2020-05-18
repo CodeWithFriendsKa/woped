@@ -6,7 +6,6 @@ import org.woped.qualanalysis.soundness.algorithms.generic.scc.IStronglyConnecte
 import org.woped.qualanalysis.soundness.builder.BuilderFactory;
 import org.woped.qualanalysis.soundness.marking.IMarking;
 import org.woped.qualanalysis.soundness.marking.IMarkingNet;
-import org.woped.qualanalysis.soundness.marking.Marking;
 
 public class JGraphModel2LowLevelPetriNet {
 

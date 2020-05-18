@@ -22,13 +22,17 @@
  */
 package org.woped.core.model.petrinet;
 
+import java.awt.Point;
+import java.util.Map;
+
 import org.jgraph.graph.DefaultPort;
-import org.woped.core.model.*;
+import org.woped.core.model.ArcModel;
+import org.woped.core.model.CreationMap;
+import org.woped.core.model.ModelElementContainer;
+import org.woped.core.model.ModelElementFactory;
+import org.woped.core.model.PetriNetModelProcessor;
 import org.woped.core.model.petrinet.Toolspecific.OperatorDirection;
 import org.woped.core.model.petrinet.Toolspecific.OperatorPosition;
-
-import java.awt.*;
-import java.util.Map;
 
 
 /**

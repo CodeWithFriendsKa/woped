@@ -1,11 +1,15 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model;
 
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Set;
+
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.NodeChangedEvent;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.NodeChangedEventListener;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 import org.woped.qualanalysis.soundness.marking.IMarking;
-
-import java.util.*;
 
 /**
  * This class is represents a node in the coverability graph built with the monotone pruning algorithm.

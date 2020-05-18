@@ -1,11 +1,11 @@
 package org.woped.qualanalysis.soundness.datamodel;
 
-import org.woped.qualanalysis.soundness.algorithms.generic.INode;
-
 import java.util.HashMap;
 import java.util.HashSet;
 import java.util.Map;
 import java.util.Set;
+
+import org.woped.qualanalysis.soundness.algorithms.generic.INode;
 
 /**
  * This abstract class provides the basic functionality of a node in a low level petri net.

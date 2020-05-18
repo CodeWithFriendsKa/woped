@@ -22,17 +22,18 @@
  */
 package org.woped.core.model;
 
-import org.woped.core.Constants;
-import org.woped.core.config.ConfigurationManager;
-import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
-import org.woped.core.utilities.LoggerManager;
-
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Point;
 import java.awt.geom.Point2D;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Vector;
+
+import javax.swing.ImageIcon;
+
+import org.woped.core.Constants;
+import org.woped.core.config.ConfigurationManager;
+import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
+import org.woped.core.utilities.LoggerManager;
 
 /**
  * @author <a href="mailto:slandes@kybeidos.de">Simon Landes </a> <br>

@@ -1,10 +1,16 @@
 package org.woped.tests.qualanalysis.soundness.algorithms.testing;
 
-import org.woped.core.model.petrinet.OperatorTransitionModel;
-import org.woped.core.utilities.ShortLexStringComparator;
-import org.woped.qualanalysis.soundness.datamodel.*;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
-import java.util.*;
+import org.woped.core.model.petrinet.OperatorTransitionModel;
+import org.woped.qualanalysis.soundness.datamodel.AbstractNode;
+import org.woped.qualanalysis.soundness.datamodel.ILowLevelPetriNet;
+import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
+import org.woped.qualanalysis.soundness.datamodel.PlaceNodeComparator;
+import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
 
 /**
  * LowLevelPetriNet without t*

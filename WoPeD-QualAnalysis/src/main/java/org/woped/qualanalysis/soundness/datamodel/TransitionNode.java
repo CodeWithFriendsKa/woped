@@ -1,8 +1,8 @@
 package org.woped.qualanalysis.soundness.datamodel;
 
-import org.woped.core.model.petrinet.OperatorTransitionModel;
-
 import java.util.Iterator;
+
+import org.woped.core.model.petrinet.OperatorTransitionModel;
 
 /**
  * this class represents a transition in a low level petri net extends AbstractNode

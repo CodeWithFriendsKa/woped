@@ -17,11 +17,6 @@ import java.util.Random;
 import java.util.ResourceBundle;
 
 import org.woped.core.utilities.LoggerManager;
-import org.woped.quantana.dashboard.webserver.DefaultFileReader;
-import org.woped.quantana.dashboard.webserver.ThinServerFileReader;
-import org.woped.quantana.dashboard.webserver.Request;
-import org.woped.quantana.dashboard.webserver.Response;
-import org.woped.quantana.dashboard.webserver.SessionData;
 import org.woped.quantana.dashboard.storage.StorageEngine;
 
 

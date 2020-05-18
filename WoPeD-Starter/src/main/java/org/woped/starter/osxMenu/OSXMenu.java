@@ -4,6 +4,7 @@
 package org.woped.starter.osxMenu;
 
 import java.awt.Toolkit;
+
 import javax.swing.JCheckBox;
 import javax.swing.JMenu;
 import javax.swing.KeyStroke;

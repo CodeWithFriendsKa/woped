@@ -1,6 +1,6 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.views;
 
-import java.awt.*;
+import java.awt.Color;
 
 /**
  * Defines the default color scheme for coverability graph nodes if not specific colors are set on the nodes.

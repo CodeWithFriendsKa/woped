@@ -1,8 +1,11 @@
 package org.woped.qualanalysis.sidebar.expert.components;
 
-import org.woped.core.model.ArcModel;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.Set;
 
-import java.util.*;
+import org.woped.core.model.ArcModel;
 
 /**
  * This class is provides information about a group of arcs in the expert view.

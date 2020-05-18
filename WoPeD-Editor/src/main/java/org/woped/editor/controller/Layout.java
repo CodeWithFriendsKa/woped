@@ -3,9 +3,6 @@ package org.woped.editor.controller;
 import java.util.Set;
 import java.util.TreeSet;
 
-import org.woped.editor.controller.GroupLocator;
-import org.woped.editor.controller.RoleLocator;
-
 			/**
 			 * The Layout object which is handed over to the front end. It is based on the grid which is created by the Layout Algorithm.
 			 * 

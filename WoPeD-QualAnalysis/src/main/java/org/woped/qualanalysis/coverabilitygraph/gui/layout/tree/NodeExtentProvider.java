@@ -1,9 +1,9 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.layout.tree;
 
+import java.awt.geom.Rectangle2D;
+
 import org.jgraph.graph.GraphConstants;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-
-import java.awt.geom.Rectangle2D;
 
 class NodeExtentProvider implements org.abego.treelayout.NodeExtentProvider<CoverabilityGraphNode> {
 

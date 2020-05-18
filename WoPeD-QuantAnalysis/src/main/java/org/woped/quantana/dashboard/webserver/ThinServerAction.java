@@ -6,8 +6,6 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import org.woped.core.utilities.LoggerManager;
-import org.woped.quantana.dashboard.webserver.Request;
-import org.woped.quantana.dashboard.webserver.Response;
 import org.woped.quantana.dashboard.storage.StorageEngine;
 
 public abstract class ThinServerAction {

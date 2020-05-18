@@ -1,5 +1,8 @@
 package org.woped.tests.qualanalysis.soundness.algorithms.testing;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import org.woped.core.model.petrinet.OperatorTransitionModel;
 import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
 import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
@@ -7,9 +10,6 @@ import org.woped.qualanalysis.soundness.marking.Arc;
 import org.woped.qualanalysis.soundness.marking.IMarking;
 import org.woped.qualanalysis.soundness.marking.IMarkingNet;
 import org.woped.qualanalysis.soundness.marking.Marking;
-
-import java.util.HashSet;
-import java.util.Set;
 
 public class MNetMock implements IMarkingNet {
 	private TransitionNode[] transitions = new TransitionNode[4];

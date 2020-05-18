@@ -30,7 +30,9 @@
 package org.pushingpixels.flamingo.api.common;
 
 import java.awt.Image;
-import java.util.*;
+import java.util.Collections;
+import java.util.LinkedList;
+import java.util.List;
 
 /**
  * Rich tooltip for command buttons.

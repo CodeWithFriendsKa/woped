@@ -1,17 +1,22 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.layout.hierarchic;
 
+import java.awt.geom.Rectangle2D;
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 import org.jgraph.graph.AttributeMap;
 import org.jgraph.graph.GraphConstants;
 import org.jgraph.graph.GraphModel;
 import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraph;
+import org.woped.qualanalysis.coverabilitygraph.gui.layout.CoverabilityGraphLayoutBase;
 import org.woped.qualanalysis.coverabilitygraph.model.AbstractReachabilityGraphModel;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphPort;
-import org.woped.qualanalysis.coverabilitygraph.gui.layout.CoverabilityGraphLayoutBase;
-
-import java.awt.geom.Rectangle2D;
-import java.util.*;
 
 /**
  * ReachabilityGraph implementation was done by Manuel Fladt and Benjamin Geiger.

@@ -2,6 +2,7 @@ package org.woped.editor.graphbeautifier;
 
 import java.util.ArrayList;
 import java.util.HashSet;
+
 import org.woped.core.model.ArcModel;
 import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
 

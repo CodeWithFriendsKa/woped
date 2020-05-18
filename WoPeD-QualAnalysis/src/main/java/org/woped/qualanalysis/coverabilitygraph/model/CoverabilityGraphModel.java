@@ -1,10 +1,10 @@
 package org.woped.qualanalysis.coverabilitygraph.model;
 
+import java.util.Collection;
+
 import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraph;
 import org.woped.qualanalysis.coverabilitygraph.gui.layout.CoverabilityGraphLayoutSettings;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.CoverabilityGraphViewFactory;
-
-import java.util.Collection;
 
 /**
  * This interface defines the basic functionality for graph models.

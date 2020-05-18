@@ -1,8 +1,8 @@
 package org.woped.core.model.petrinet;
 
-import org.woped.core.model.CreationMap;
+import java.awt.Color;
 
-import java.awt.*;
+import org.woped.core.model.CreationMap;
 
 
 @SuppressWarnings("serial")

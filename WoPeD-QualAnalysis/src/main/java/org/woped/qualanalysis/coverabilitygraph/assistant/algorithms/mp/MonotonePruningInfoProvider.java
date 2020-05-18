@@ -1,19 +1,29 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp;
 
-import org.woped.gui.translations.Messages;
-import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphAdapter;
-import org.woped.qualanalysis.coverabilitygraph.events.NodeEvent;
-import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.*;
-import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
-import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNodeState;
-import org.woped.qualanalysis.coverabilitygraph.assistant.sidebar.*;
-import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.NodeFormatter;
-import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
-
-import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.util.HashMap;
 import java.util.Map;
+
+import javax.swing.Action;
+
+import org.woped.gui.translations.Messages;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.CoverCheckCompletedEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.DeactivationCheckCompletedEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.DescendantsCheckCompletedEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.MonotonePruningAnalysisAdapter;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.OmegaCheckEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.ParentCheckCompletedEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNodeState;
+import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphAdapter;
+import org.woped.qualanalysis.coverabilitygraph.assistant.sidebar.MainTaskView;
+import org.woped.qualanalysis.coverabilitygraph.assistant.sidebar.ProgressDescriptionView;
+import org.woped.qualanalysis.coverabilitygraph.assistant.sidebar.ProgressDetailsView;
+import org.woped.qualanalysis.coverabilitygraph.assistant.sidebar.SidebarAction;
+import org.woped.qualanalysis.coverabilitygraph.assistant.sidebar.SidebarVC;
+import org.woped.qualanalysis.coverabilitygraph.events.NodeEvent;
+import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.NodeFormatter;
+import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
 
 
 /**

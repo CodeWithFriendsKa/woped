@@ -1,11 +1,11 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event;
 
-import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
-import org.woped.qualanalysis.soundness.marking.IMarking;
-
 import java.util.Collection;
 import java.util.EventObject;
 import java.util.Set;
+
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
+import org.woped.qualanalysis.soundness.marking.IMarking;
 
 /**
  * Event that indicates, that the omega check has completed in the processing of the current node.

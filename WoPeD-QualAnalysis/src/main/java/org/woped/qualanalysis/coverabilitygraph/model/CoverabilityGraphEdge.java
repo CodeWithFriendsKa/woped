@@ -1,14 +1,24 @@
 package org.woped.qualanalysis.coverabilitygraph.model;
 
-import org.jgraph.graph.*;
+import java.awt.Color;
+import java.awt.geom.Point2D;
+import java.awt.geom.Rectangle2D;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.SortedSet;
+import java.util.TreeSet;
+
+import org.jgraph.graph.AbstractCellView;
+import org.jgraph.graph.AttributeMap;
+import org.jgraph.graph.CellView;
+import org.jgraph.graph.DefaultEdge;
+import org.jgraph.graph.EdgeView;
+import org.jgraph.graph.GraphConstants;
+import org.jgraph.graph.GraphLayoutCache;
 import org.woped.core.utilities.ShortLexStringComparator;
 import org.woped.gui.translations.Messages;
 import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
-
-import java.awt.*;
-import java.awt.geom.Point2D;
-import java.awt.geom.Rectangle2D;
-import java.util.*;
 
 /**
  * This class represents the connection between 2 reachable markings when firing a specific transition.

@@ -26,12 +26,12 @@ import javax.swing.filechooser.FileFilter;
 
 import org.woped.core.config.ConfigurationManager;
 import org.woped.core.config.IMetricsConfiguration;
+import org.woped.gui.translations.Messages;
 import org.woped.metrics.builder.MetricsBuilderPanel.NameIDListEntry;
 import org.woped.metrics.exceptions.CalculateFormulaException;
 import org.woped.metrics.exceptions.NestedCalculateFormulaException;
 import org.woped.metrics.helpers.LabeledFileFilter;
 import org.woped.metrics.metricsCalculation.MetricsCalculator;
-import org.woped.gui.translations.Messages;
 
 /**
  * Class that handles all the events from the metrics builder

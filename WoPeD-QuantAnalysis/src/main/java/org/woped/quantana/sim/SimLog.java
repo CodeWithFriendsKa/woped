@@ -1,9 +1,9 @@
 package org.woped.quantana.sim;
 
-import java.text.SimpleDateFormat;
-import java.util.HashMap;
-import java.util.Date;
 import java.io.PrintWriter;
+import java.text.SimpleDateFormat;
+import java.util.Date;
+import java.util.HashMap;
 
 public class SimLog {
 	private HashMap<Integer, SimLogTrace> traces;

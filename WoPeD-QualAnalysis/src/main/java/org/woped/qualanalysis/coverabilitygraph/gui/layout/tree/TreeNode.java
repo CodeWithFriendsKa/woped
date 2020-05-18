@@ -1,10 +1,10 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.layout.tree;
 
-import org.abego.treelayout.util.AbstractTreeForTreeLayout;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-
 import java.util.Collection;
 import java.util.List;
+
+import org.abego.treelayout.util.AbstractTreeForTreeLayout;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 /**
  * This class wraps {@link CoverabilityGraphNode}s to provided the necessary interface for the tree layout.

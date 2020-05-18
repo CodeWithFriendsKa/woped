@@ -1,9 +1,9 @@
 package org.woped.qualanalysis.sidebar.assistant.pages;
 
+import org.woped.gui.translations.Messages;
 import org.woped.qualanalysis.sidebar.SideBar;
 import org.woped.qualanalysis.sidebar.assistant.components.BeginnerPanel;
 import org.woped.qualanalysis.sidebar.assistant.components.DetailsMouseListener;
-import org.woped.gui.translations.Messages;
 
 /**
  * shows soundness overview

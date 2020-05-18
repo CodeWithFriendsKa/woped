@@ -3,9 +3,6 @@ package org.woped.editor.controller;
 import java.util.HashSet;
 import java.util.Set;
 
-import org.woped.editor.controller.Component;
-import org.woped.editor.controller.CompoundGroup;
-
 			//Representation of the Group
 			class Group {
 				String name = null;

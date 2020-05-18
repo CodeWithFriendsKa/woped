@@ -1,10 +1,10 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event;
 
-import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
-
 import java.util.Collection;
 import java.util.EventObject;
 import java.util.Set;
+
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
 
 /**
  * Event that indicates, that the deactivation check in the processing of the current node has completed.

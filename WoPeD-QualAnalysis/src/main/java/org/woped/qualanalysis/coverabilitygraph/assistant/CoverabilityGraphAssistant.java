@@ -1,8 +1,8 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant;
 
 import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphListener;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 import org.woped.qualanalysis.coverabilitygraph.events.CoverabilityGraphMouseListener;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 /**
  * Defines the interactions a coverability graph assistant should provide.

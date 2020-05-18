@@ -22,11 +22,11 @@ import javax.swing.border.EtchedBorder;
 import org.woped.core.config.ConfigurationManager;
 import org.woped.core.config.IMetricsConfiguration;
 import org.woped.core.controller.IEditor;
+import org.woped.gui.translations.Messages;
 import org.woped.metrics.builder.MetricsBuilder;
 import org.woped.metrics.metricsCalculation.MetricsUIRequestHandler;
 import org.woped.metrics.metricsCalculation.UITypes.UIThreshold;
 import org.woped.metrics.sidebar.SideBar;
-import org.woped.gui.translations.Messages;
 
 /**
  * @author Mathias Gruschinske

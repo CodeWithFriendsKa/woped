@@ -1,6 +1,7 @@
 package org.woped.tests.editor;
 
 import java.util.Map;
+
 import org.junit.Test;
 import org.woped.core.model.CreationMap;
 

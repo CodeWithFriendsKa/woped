@@ -10,6 +10,7 @@ import javax.swing.JPanel;
 
 import org.woped.core.model.ModelElementContainer;
 import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
+import org.woped.gui.translations.Messages;
 import org.woped.qualanalysis.sidebar.SideBar;
 import org.woped.qualanalysis.sidebar.assistant.components.BeginnerPanel;
 import org.woped.qualanalysis.sidebar.assistant.components.ClickLabel;
@@ -17,7 +18,6 @@ import org.woped.qualanalysis.sidebar.assistant.components.DetailsMouseListener;
 import org.woped.qualanalysis.sidebar.assistant.components.SimpleGridBagLayout;
 import org.woped.qualanalysis.sidebar.assistant.pages.SoundnessPage;
 import org.woped.qualanalysis.sidebar.assistant.pages.WorkflowPage;
-import org.woped.gui.translations.Messages;
 
 /**
  * shows the analysis startpage with the overview of soundness analysis, workflow analysis and the net statistics

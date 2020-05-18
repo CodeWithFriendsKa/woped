@@ -1,5 +1,13 @@
 package org.woped.qualanalysis.coverabilitygraph.gui;
 
+import java.awt.BorderLayout;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+
+import javax.swing.JPanel;
+
 import org.woped.core.controller.IEditor;
 import org.woped.core.utilities.LoggerManager;
 import org.woped.qualanalysis.Constants;
@@ -10,13 +18,6 @@ import org.woped.qualanalysis.coverabilitygraph.events.NodeClickedEvent;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.CoverabilityGraphResultView;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.CoverabilityGraphView;
 import org.woped.qualanalysis.soundness.marking.IMarking;
-
-import javax.swing.*;
-import java.awt.*;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.Map;
 
 /**
  * This class manages different views of the coverability graph for one petri net.

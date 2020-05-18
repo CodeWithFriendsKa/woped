@@ -14,13 +14,13 @@ import java.util.Map;
 
 import org.jgraph.graph.AbstractCellView;
 import org.jgraph.graph.CellView;
+import org.jgraph.graph.DefaultEdge.LoopRouting;
 import org.jgraph.graph.DefaultGraphModel;
 import org.jgraph.graph.Edge;
 import org.jgraph.graph.EdgeView;
 import org.jgraph.graph.GraphConstants;
 import org.jgraph.graph.GraphLayoutCache;
 import org.jgraph.graph.GraphModel;
-import org.jgraph.graph.DefaultEdge.LoopRouting;
 
 /**
  * A routing algorithm that 

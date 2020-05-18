@@ -1,12 +1,12 @@
 package org.woped.qualanalysis.soundness.algorithms.basedonmarkingnet.nonliveTransitions;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import org.woped.qualanalysis.soundness.algorithms.basedonmarkingnet.AbstractMarkingNetTest;
 import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
 import org.woped.qualanalysis.soundness.marking.IMarking;
 import org.woped.qualanalysis.soundness.marking.IMarkingNet;
-
-import java.util.HashSet;
-import java.util.Set;
 
 /**
  * indicates all non live transtions with exp. costs.

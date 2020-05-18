@@ -20,9 +20,9 @@ import javax.swing.JPanel;
 import javax.swing.JProgressBar;
 import javax.swing.SwingWorker;
 
+import org.woped.gui.translations.Messages;
 import org.woped.quantana.Constants;
 import org.woped.quantana.sim.SimRunner;
-import org.woped.gui.translations.Messages;
 
 public class WaitDialog extends JDialog{
 

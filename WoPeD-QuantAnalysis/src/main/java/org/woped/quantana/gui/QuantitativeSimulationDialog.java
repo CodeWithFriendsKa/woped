@@ -67,10 +67,11 @@ import org.woped.core.model.petrinet.ResourceClassModel;
 import org.woped.core.model.petrinet.SubProcessModel;
 import org.woped.core.model.petrinet.TransitionModel;
 import org.woped.core.utilities.LoggerManager;
+import org.woped.gui.translations.Messages;
 import org.woped.quantana.Constants;
+import org.woped.quantana.dashboard.storage.SimRunnerDB;
 import org.woped.quantana.dashboard.storage.StorageEngine;
 import org.woped.quantana.dashboard.storage.StorageEngine.Table;
-import org.woped.quantana.dashboard.storage.SimRunnerDB;
 import org.woped.quantana.dashboard.webserver.ClientStarter;
 import org.woped.quantana.dashboard.webserver.DashboardRunner;
 import org.woped.quantana.graph.Key;
@@ -92,7 +93,6 @@ import org.woped.quantana.sim.SimReportServerStats;
 import org.woped.quantana.sim.SimRunStats;
 import org.woped.quantana.sim.SimRunner;
 import org.woped.quantana.sim.SimServer;
-import org.woped.gui.translations.Messages;
 
 public class QuantitativeSimulationDialog extends JDialog implements
 		MouseMotionListener, KeyListener {

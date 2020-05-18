@@ -1,5 +1,9 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp;
 
+import java.awt.Color;
+import java.util.LinkedList;
+import java.util.List;
+
 import org.jgraph.graph.AttributeMap;
 import org.jgraph.graph.GraphConstants;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.MonotonePruningAnalysisAdapter;
@@ -10,17 +14,13 @@ import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.Mp
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNodeState;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNodeTextFormatter;
 import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphAdapter;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphPort;
 import org.woped.qualanalysis.coverabilitygraph.events.EdgeEvent;
 import org.woped.qualanalysis.coverabilitygraph.events.NodeEvent;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.DefaultNodeTextFormatter;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.NodeFormatter;
-
-import java.awt.*;
-import java.util.LinkedList;
-import java.util.List;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphPort;
 
 
 /**

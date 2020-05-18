@@ -12,15 +12,15 @@ import javax.swing.BorderFactory;
 import javax.swing.JButton;
 import javax.swing.JComboBox;
 import javax.swing.JDialog;
+import javax.swing.JFrame;
 import javax.swing.JLabel;
 import javax.swing.JPanel;
 import javax.swing.JTextField;
-import javax.swing.JFrame;
 
 import org.woped.gui.translations.Messages;
+import org.woped.quantana.Constants;
 import org.woped.quantana.graph.Node;
 import org.woped.quantana.model.TimeModel;
-import org.woped.quantana.Constants;
 
 public class TimeModelDialog extends JDialog {
 

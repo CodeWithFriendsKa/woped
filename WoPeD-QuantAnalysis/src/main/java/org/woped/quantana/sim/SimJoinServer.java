@@ -1,6 +1,7 @@
 package org.woped.quantana.sim;
 
 import java.util.HashMap;
+
 import org.woped.quantana.resourcealloc.Resource;
 
 

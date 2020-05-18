@@ -7,7 +7,6 @@ import org.woped.qualanalysis.soundness.algorithms.basedonmarkingnet.AbstractMar
 import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
 import org.woped.qualanalysis.soundness.marking.IMarking;
 import org.woped.qualanalysis.soundness.marking.IMarkingNet;
-import org.woped.qualanalysis.soundness.marking.Marking;
 
 /**
  * indicates all unbounded places.

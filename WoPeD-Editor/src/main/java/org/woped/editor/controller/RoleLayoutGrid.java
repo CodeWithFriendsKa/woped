@@ -4,9 +4,6 @@ import java.util.HashSet;
 import java.util.Iterator;
 import java.util.Set;
 
-import org.woped.editor.controller.RoleLocator;
-import org.woped.editor.controller.Layout;
-
 //import org.woped.editor.controller.PetriNetResourceEditor.RoleLayoutGrid.subsetRelation;
 
 			// Class which creates and reworks the Role grid

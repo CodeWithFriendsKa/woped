@@ -31,7 +31,12 @@ package org.pushingpixels.flamingo.api.common.popup;
 
 import java.awt.Component;
 import java.awt.event.ComponentEvent;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.EventListener;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
 
 import javax.swing.JComponent;
 import javax.swing.Popup;

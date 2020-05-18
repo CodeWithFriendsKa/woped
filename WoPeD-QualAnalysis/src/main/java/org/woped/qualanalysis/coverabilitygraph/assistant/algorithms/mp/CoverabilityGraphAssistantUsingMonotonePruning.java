@@ -3,16 +3,16 @@ package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp;
 import org.woped.core.controller.IEditor;
 import org.woped.qualanalysis.coverabilitygraph.assistant.CoverabilityGraphAssistant;
 import org.woped.qualanalysis.coverabilitygraph.assistant.CoverabilityGraphAssistantModel;
+import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNodeState;
-import org.woped.qualanalysis.coverabilitygraph.assistant.sidebar.SidebarVC;
 import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphAdapter;
 import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphListener;
-import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
+import org.woped.qualanalysis.coverabilitygraph.assistant.sidebar.SidebarVC;
 import org.woped.qualanalysis.coverabilitygraph.events.CoverabilityGraphMouseAdapter;
 import org.woped.qualanalysis.coverabilitygraph.events.CoverabilityGraphMouseListener;
 import org.woped.qualanalysis.coverabilitygraph.events.EmptySpaceClickedEvent;
 import org.woped.qualanalysis.coverabilitygraph.events.NodeClickedEvent;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 /**
  * This class guides the user through the process of building the minimal coverability graph (set) introduced by

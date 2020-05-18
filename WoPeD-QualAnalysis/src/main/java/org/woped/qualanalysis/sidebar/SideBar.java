@@ -8,13 +8,13 @@ import javax.swing.JPanel;
 import org.woped.core.controller.AbstractApplicationMediator;
 import org.woped.core.controller.IEditor;
 import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
+import org.woped.gui.translations.Messages;
 import org.woped.qualanalysis.service.IQualanalysisService;
 import org.woped.qualanalysis.service.QualAnalysisServiceFactory;
 import org.woped.qualanalysis.sidebar.assistant.StartPage;
 import org.woped.qualanalysis.sidebar.components.PermanentTabbedPane;
 import org.woped.qualanalysis.sidebar.components.TStar;
 import org.woped.qualanalysis.sidebar.expert.ExpertPage;
-import org.woped.gui.translations.Messages;
 
 /**
  * class of the Analysissidebar

@@ -20,9 +20,9 @@ import org.woped.core.model.bpel.BpelVariable;
 import org.woped.core.model.bpel.Partnerlink;
 import org.woped.core.model.petrinet.TransitionModel;
 import org.woped.editor.controller.TransitionPropertyEditor;
-import org.woped.editor.controller.wsdl.Wsdl;
 import org.woped.editor.controller.wsdl.NoPortTypeFoundException;
 import org.woped.editor.controller.wsdl.Operation;
+import org.woped.editor.controller.wsdl.Wsdl;
 import org.woped.editor.gui.PopUpDialog;
 import org.woped.gui.translations.Messages;
 

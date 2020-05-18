@@ -1,9 +1,9 @@
 package org.woped.quantana.sim;
 
+import java.io.PrintWriter;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Vector;
-import java.io.PrintWriter;
 
 public class SimLogTrace {
 	private int caseID;

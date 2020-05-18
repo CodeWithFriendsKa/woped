@@ -1,8 +1,8 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.event;
 
 import org.jgraph.graph.AttributeMap;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
 import org.woped.qualanalysis.coverabilitygraph.events.EdgeEvent;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
 
 /**
  * An event which indicates that an edge has been modified in a coverability graph.

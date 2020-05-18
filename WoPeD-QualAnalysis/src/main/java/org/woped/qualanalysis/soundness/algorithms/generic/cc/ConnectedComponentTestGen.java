@@ -1,10 +1,10 @@
 package org.woped.qualanalysis.soundness.algorithms.generic.cc;
 
-import org.woped.qualanalysis.soundness.algorithms.generic.INode;
-import org.woped.qualanalysis.soundness.algorithms.generic.INodeNet;
-
 import java.util.HashSet;
 import java.util.Set;
+
+import org.woped.qualanalysis.soundness.algorithms.generic.INode;
+import org.woped.qualanalysis.soundness.algorithms.generic.INodeNet;
 
 /**
  * 

@@ -2,6 +2,7 @@ package org.woped.core.model.bpel;
 
 import java.util.HashSet;
 import java.util.Iterator;
+
 import org.oasisOpen.docs.wsbpel.x20.process.executable.TPartnerLinks;
 
 /**

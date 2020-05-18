@@ -1,5 +1,14 @@
 package org.woped.metrics.metricsCalculation;
 
+import java.lang.reflect.InvocationTargetException;
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.Set;
+
 import org.antlr.runtime.RecognitionException;
 import org.woped.core.config.ConfigurationManager;
 import org.woped.core.config.IMetricsConfiguration;
@@ -14,17 +23,14 @@ import org.woped.metrics.exceptions.NaNException;
 import org.woped.metrics.formulaEnhancement.EnhancementException;
 import org.woped.metrics.formulaEnhancement.FormulaEnhancementList;
 import org.woped.metrics.jbpt.RPSTHandler;
-import org.woped.qualanalysis.coverabilitygraph.model.ReachabilityGraphModelUsingMarkingNet;
 import org.woped.qualanalysis.coverabilitygraph.gui.CoverabilityGraph;
+import org.woped.qualanalysis.coverabilitygraph.model.ReachabilityGraphModelUsingMarkingNet;
 import org.woped.qualanalysis.service.IQualanalysisService;
 import org.woped.qualanalysis.service.QualAnalysisServiceFactory;
 import org.woped.qualanalysis.soundness.algorithms.AlgorithmFactory;
 import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
 import org.woped.qualanalysis.soundness.marking.IMarking;
 import org.woped.qualanalysis.soundness.marking.IMarkingNet;
-
-import java.lang.reflect.InvocationTargetException;
-import java.util.*;
 
 /**
  * 

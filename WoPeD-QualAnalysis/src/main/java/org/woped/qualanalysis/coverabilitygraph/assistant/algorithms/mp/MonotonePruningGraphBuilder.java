@@ -1,13 +1,20 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp;
 
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+
 import org.woped.core.controller.IEditor;
-import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphAdapter;
-import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphListener;
-import org.woped.qualanalysis.coverabilitygraph.events.NodeEvent;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.MonotonePruningAnalysisAdapter;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event.NodeRelatedEvent;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNodeState;
+import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphAdapter;
+import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphListener;
+import org.woped.qualanalysis.coverabilitygraph.events.NodeEvent;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
 import org.woped.qualanalysis.soundness.builder.BuilderFactory;
 import org.woped.qualanalysis.soundness.builder.lowlevelpetrinet.AbstractLowLevelPetriNetBuilder;
@@ -18,8 +25,6 @@ import org.woped.qualanalysis.soundness.marking.Arc;
 import org.woped.qualanalysis.soundness.marking.IMarking;
 import org.woped.qualanalysis.soundness.marking.IMarkingNet;
 import org.woped.qualanalysis.soundness.marking.MarkingNet;
-
-import java.util.*;
 
 /**
  * This class implements the algorithm from the paper Minimal Coverability Set for Petri Nets: Karp and Miller Algorithm with Pruning

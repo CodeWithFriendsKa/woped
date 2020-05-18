@@ -1,9 +1,9 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event;
 
-import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
-
 import java.util.Collection;
 import java.util.EventObject;
+
+import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
 
 /**
  * Event that indicates, that the descendants check in the processing of the current node has been completed.

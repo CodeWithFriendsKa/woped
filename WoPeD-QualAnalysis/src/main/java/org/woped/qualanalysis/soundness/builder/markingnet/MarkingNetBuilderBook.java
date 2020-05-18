@@ -1,13 +1,13 @@
 package org.woped.qualanalysis.soundness.builder.markingnet;
 
+import java.util.HashMap;
+import java.util.Map;
+
 import org.woped.qualanalysis.soundness.datamodel.ILowLevelPetriNet;
 import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
 import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
 import org.woped.qualanalysis.soundness.marking.Arc;
 import org.woped.qualanalysis.soundness.marking.IMarking;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * creates marking net based on algorithm page 121 "Business Process and WorkflowManagement" author Cornelia Richter von Hagen, Wolfried Stucky.

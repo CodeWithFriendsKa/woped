@@ -22,6 +22,9 @@
  */
 package org.woped.core.model.petrinet;
 
+import java.util.Iterator;
+import java.util.Map;
+
 import org.jgraph.graph.DefaultPort;
 import org.jgraph.graph.Edge;
 import org.woped.core.Constants;
@@ -30,9 +33,6 @@ import org.woped.core.model.ModelElementContainer;
 import org.woped.core.model.ModelElementFactory;
 import org.woped.core.model.PetriNetModelProcessor;
 import org.woped.core.utilities.LoggerManager;
-
-import java.util.Iterator;
-import java.util.Map;
 
 /**
  * @author lai

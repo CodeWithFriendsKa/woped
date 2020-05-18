@@ -22,21 +22,33 @@
  */
 package org.woped.core.model;
 
+import java.io.Serializable;
+import java.util.ArrayList;
+import java.util.Collection;
+import java.util.Comparator;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.List;
+import java.util.Map;
+import java.util.TreeSet;
+
 import org.jgraph.graph.DefaultPort;
 import org.oasisOpen.docs.wsbpel.x20.process.executable.TPartnerLinks;
 import org.oasisOpen.docs.wsbpel.x20.process.executable.TVariable;
 import org.oasisOpen.docs.wsbpel.x20.process.executable.TVariables;
 import org.woped.core.Constants;
-import org.woped.core.model.bpel.*;
+import org.woped.core.model.bpel.BpelVariable;
+import org.woped.core.model.bpel.BpelVariableList;
+import org.woped.core.model.bpel.PartnerlinkList;
+import org.woped.core.model.bpel.UddiVariable;
+import org.woped.core.model.bpel.UddiVariableList;
 import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
 import org.woped.core.model.petrinet.EditorLayoutInfo;
 import org.woped.core.model.petrinet.ParaphrasingModel;
 import org.woped.core.model.petrinet.PlaceModel;
 import org.woped.core.utilities.LoggerManager;
 import org.woped.core.utilities.ShortLexStringComparator;
-
-import java.io.Serializable;
-import java.util.*;
 
 /**
  * @author <a href="mailto:slandes@kybeidos.de">Simon Landes </a> <br>

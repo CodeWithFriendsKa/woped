@@ -1,19 +1,29 @@
 package org.woped.editor.controller.vc;
 
+import java.util.HashMap;
+import java.util.Iterator;
+import java.util.Map;
+import java.util.Set;
+import java.util.Vector;
+
+import javax.swing.border.LineBorder;
+import javax.swing.event.InternalFrameEvent;
+
 import org.jgraph.event.GraphModelEvent;
 import org.woped.core.config.DefaultStaticConfiguration;
 import org.woped.core.controller.AbstractApplicationMediator;
 import org.woped.core.controller.IEditor;
 import org.woped.core.model.CreationMap;
 import org.woped.core.model.ModelElementContainer;
-import org.woped.core.model.petrinet.*;
+import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
+import org.woped.core.model.petrinet.EditorLayoutInfo;
+import org.woped.core.model.petrinet.ResourceClassModel;
+import org.woped.core.model.petrinet.ResourceModel;
+import org.woped.core.model.petrinet.SubProcessModel;
+import org.woped.core.model.petrinet.TransitionModel;
 import org.woped.editor.controller.EditorClipboard;
 import org.woped.editor.controller.WoPeDUndoManager;
 import org.woped.qualanalysis.structure.NetAlgorithms;
-
-import javax.swing.border.LineBorder;
-import javax.swing.event.InternalFrameEvent;
-import java.util.*;
 
 public class SubprocessEditorVC extends EditorVC {
 

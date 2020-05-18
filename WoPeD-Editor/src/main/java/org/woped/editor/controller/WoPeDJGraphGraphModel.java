@@ -11,7 +11,6 @@ import org.jgraph.graph.ConnectionSet;
 import org.jgraph.graph.DefaultGraphModel;
 import org.jgraph.graph.ParentMap;
 import org.woped.core.model.ArcModel;
-import org.woped.core.model.PetriNetModelProcessor;
 import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
 import org.woped.core.model.petrinet.GroupModel;
 import org.woped.core.model.petrinet.TransitionModel;

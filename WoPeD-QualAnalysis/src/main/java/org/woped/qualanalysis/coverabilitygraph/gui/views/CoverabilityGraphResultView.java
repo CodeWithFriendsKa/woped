@@ -1,5 +1,11 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.views;
 
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
+
 import org.jgraph.graph.AttributeMap;
 import org.jgraph.graph.GraphConstants;
 import org.woped.core.controller.IEditor;
@@ -16,11 +22,6 @@ import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphModel;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 import org.woped.qualanalysis.coverabilitygraph.model.ReachabilityGraphModelUsingMarkingNet;
-
-import java.awt.*;
-import java.util.Collection;
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * This view displays the resulting coverability graph for the petri net.

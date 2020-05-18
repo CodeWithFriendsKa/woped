@@ -1,9 +1,9 @@
 package org.woped.qualanalysis.simulation;
 
-import org.woped.core.controller.*;
-import org.woped.core.gui.*;
+import javax.swing.JDesktopPane;
 
-import javax.swing.*;
+import org.woped.core.controller.AbstractApplicationMediator;
+import org.woped.core.gui.IUserInterface;
 
 /**
  * PLEASE NOTE: THIS CLASS IS NOT FINAL, CURRENTLY AND MAY BE REMOVED, AGAIN.

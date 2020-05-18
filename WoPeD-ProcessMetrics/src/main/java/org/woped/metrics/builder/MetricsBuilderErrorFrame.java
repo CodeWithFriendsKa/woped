@@ -10,9 +10,9 @@ import javax.swing.JScrollPane;
 import javax.swing.JTable;
 import javax.swing.table.DefaultTableModel;
 
+import org.woped.gui.translations.Messages;
 import org.woped.metrics.exceptions.CalculateFormulaException;
 import org.woped.metrics.exceptions.NestedCalculateFormulaException;
-import org.woped.gui.translations.Messages;
 
 /**
  * @author Tobias Lorentz

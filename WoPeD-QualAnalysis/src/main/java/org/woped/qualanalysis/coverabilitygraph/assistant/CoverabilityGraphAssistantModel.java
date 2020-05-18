@@ -1,24 +1,30 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant;
 
+import java.awt.geom.Point2D;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+
 import org.jgraph.graph.AttributeMap;
 import org.jgraph.graph.ConnectionSet;
 import org.jgraph.graph.DefaultGraphCell;
 import org.jgraph.graph.GraphConstants;
 import org.woped.core.controller.IEditor;
-import org.woped.qualanalysis.coverabilitygraph.assistant.event.*;
-import org.woped.qualanalysis.coverabilitygraph.model.AbstractReachabilityGraphModel;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
+import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphAdapter;
+import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphListener;
+import org.woped.qualanalysis.coverabilitygraph.assistant.event.EdgeModifiedEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.event.EdgeReconnectedEvent;
+import org.woped.qualanalysis.coverabilitygraph.assistant.event.NodeModifiedEvent;
 import org.woped.qualanalysis.coverabilitygraph.events.EdgeEvent;
 import org.woped.qualanalysis.coverabilitygraph.events.NodeEvent;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.CoverabilityGraphViewFactory;
+import org.woped.qualanalysis.coverabilitygraph.model.AbstractReachabilityGraphModel;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 import org.woped.qualanalysis.soundness.builder.BuilderFactory;
 import org.woped.qualanalysis.soundness.builder.lowlevelpetrinet.AbstractLowLevelPetriNetBuilder;
 import org.woped.qualanalysis.soundness.datamodel.ILowLevelPetriNet;
 import org.woped.qualanalysis.soundness.marking.MarkingNet;
-
-import java.awt.geom.Point2D;
-import java.util.*;
 
 /**
  * This class should be used as graph model for coverability graph assistants.

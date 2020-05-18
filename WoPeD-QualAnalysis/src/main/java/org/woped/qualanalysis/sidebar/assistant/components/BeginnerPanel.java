@@ -1,16 +1,13 @@
 package org.woped.qualanalysis.sidebar.assistant.components;
 
-import org.woped.core.config.DefaultStaticConfiguration;
-import org.woped.core.controller.IEditor;
-import org.woped.core.model.ArcModel;
-import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
-import org.woped.gui.translations.Messages;
-import org.woped.qualanalysis.service.IQualanalysisService;
-import org.woped.qualanalysis.sidebar.SideBar;
-
-import javax.swing.*;
-import javax.swing.border.Border;
-import java.awt.*;
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Component;
+import java.awt.Cursor;
+import java.awt.Font;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+import java.awt.GridLayout;
 import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.awt.event.MouseEvent;
@@ -19,6 +16,23 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.Set;
+
+import javax.swing.BorderFactory;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
+import javax.swing.JScrollPane;
+import javax.swing.JTextArea;
+import javax.swing.JToggleButton;
+import javax.swing.ScrollPaneConstants;
+import javax.swing.border.Border;
+
+import org.woped.core.config.DefaultStaticConfiguration;
+import org.woped.core.controller.IEditor;
+import org.woped.core.model.ArcModel;
+import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
+import org.woped.gui.translations.Messages;
+import org.woped.qualanalysis.service.IQualanalysisService;
+import org.woped.qualanalysis.sidebar.SideBar;
 
 @SuppressWarnings("serial")
 public abstract class BeginnerPanel extends JPanel implements MouseListener {

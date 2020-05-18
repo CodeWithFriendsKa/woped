@@ -1,7 +1,9 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.dialogs;
 
 import java.awt.Component;
+
 import javax.swing.JOptionPane;
+
 import org.woped.gui.translations.Messages;
 
 /**

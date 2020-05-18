@@ -8,10 +8,6 @@ import javax.swing.DefaultListModel;
 import javax.swing.tree.DefaultMutableTreeNode;
 import javax.swing.tree.DefaultTreeModel;
 
-
-import org.woped.editor.controller.CompoundGroup;
-import org.woped.editor.controller.CompoundRole;
-import org.woped.editor.controller.Role;
 import org.woped.editor.controller.PetriNetResourceEditor.GroupsTreeNode;
 import org.woped.editor.controller.PetriNetResourceEditor.RolesTreeNode;
 import org.woped.editor.controller.PetriNetResourceEditor.SuperGroupsTreeNode;

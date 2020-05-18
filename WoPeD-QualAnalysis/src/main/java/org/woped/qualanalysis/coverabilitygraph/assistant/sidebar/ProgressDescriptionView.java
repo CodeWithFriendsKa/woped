@@ -1,6 +1,8 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.sidebar;
 
-import javax.swing.*;
+import javax.swing.BoxLayout;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 
 /**
  * This class can be used to display sub headers in the sidebar.

@@ -10,6 +10,28 @@
 
 package org.woped.qualanalysis.coverabilitygraph.gui.dialogs;
 
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Point;
+import java.awt.Rectangle;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
+import java.awt.event.KeyEvent;
+
+import javax.swing.AbstractAction;
+import javax.swing.Action;
+import javax.swing.ActionMap;
+import javax.swing.ButtonGroup;
+import javax.swing.InputMap;
+import javax.swing.JButton;
+import javax.swing.JCheckBox;
+import javax.swing.JComponent;
+import javax.swing.JDialog;
+import javax.swing.JLabel;
+import javax.swing.JRadioButton;
+import javax.swing.JTextField;
+import javax.swing.KeyStroke;
+
 import org.jgraph.graph.DefaultEdge;
 import org.jgraph.graph.Edge;
 import org.woped.gui.translations.Messages;
@@ -20,12 +42,6 @@ import org.woped.qualanalysis.coverabilitygraph.gui.views.CoverabilityGraphColor
 import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.MarkingFormatter;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.MultiSetMarkingFormatter;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.TokenVectorMarkingFormatter;
-
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-import java.awt.event.KeyEvent;
 
 public class CoverabilityGraphSettingsDialog extends JDialog {
 

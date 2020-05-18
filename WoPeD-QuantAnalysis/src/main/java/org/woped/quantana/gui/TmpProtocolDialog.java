@@ -1,7 +1,6 @@
 package org.woped.quantana.gui;
 
 import java.awt.Container;
-
 import java.awt.Dialog;
 import java.awt.Dimension;
 import java.awt.GridBagConstraints;
@@ -15,13 +14,13 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.PrintWriter;
 
+import javax.swing.JButton;
 import javax.swing.JDialog;
 import javax.swing.JFileChooser;
 import javax.swing.JOptionPane;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 import javax.swing.filechooser.FileNameExtensionFilter;
-import javax.swing.JButton;
 
 import org.woped.gui.translations.Messages;
 import org.woped.quantana.sim.SimLog;

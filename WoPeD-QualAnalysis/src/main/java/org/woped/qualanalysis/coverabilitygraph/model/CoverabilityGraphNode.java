@@ -10,19 +10,19 @@
 
 package org.woped.qualanalysis.coverabilitygraph.model;
 
+import java.awt.Color;
+import java.awt.geom.Rectangle2D;
+import java.util.Collection;
+import java.util.HashSet;
+import java.util.LinkedList;
+import java.util.SortedSet;
+
 import org.jgraph.graph.AttributeMap;
 import org.jgraph.graph.DefaultGraphCell;
 import org.jgraph.graph.GraphConstants;
 import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
 import org.woped.qualanalysis.soundness.marking.IMarking;
 import org.woped.qualanalysis.soundness.marking.Marking;
-
-import java.awt.*;
-import java.awt.geom.Rectangle2D;
-import java.util.Collection;
-import java.util.HashSet;
-import java.util.LinkedList;
-import java.util.SortedSet;
 
 /**
  * This class represents a reachable marking in a coverability graph.

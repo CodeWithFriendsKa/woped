@@ -1,12 +1,20 @@
 package org.woped.qualanalysis.soundness.marking;
 
+import java.util.Arrays;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.SortedMap;
+import java.util.SortedSet;
+import java.util.TreeMap;
+import java.util.TreeSet;
+
 import org.woped.core.utilities.ShortLexStringComparator;
 import org.woped.qualanalysis.soundness.algorithms.generic.INode;
 import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
 import org.woped.qualanalysis.soundness.datamodel.PlaceNodeComparator;
 import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
-
-import java.util.*;
 
 /**
  * @author Patrick Spies, Patrick Kirchgaessner, Joern Liebau, Enrico Moeller, Sebastian Fuss

@@ -22,15 +22,15 @@
  */
 package org.woped.core.model.petrinet;
 
+import java.awt.Point;
+import java.util.Collection;
+import java.util.Map;
+
 import org.jgraph.graph.AttributeMap;
 import org.jgraph.graph.GraphConstants;
 import org.woped.core.model.ArcModel;
 import org.woped.core.model.CreationMap;
 import org.woped.core.model.petrinet.Toolspecific.OperatorPosition;
-
-import java.awt.*;
-import java.util.Collection;
-import java.util.Map;
 
 /**
  * This class represents a classic transition in a petrinet.

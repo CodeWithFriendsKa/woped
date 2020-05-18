@@ -1,8 +1,11 @@
 package org.woped.qualanalysis.soundness.datamodel;
 
-import org.woped.core.utilities.ShortLexStringComparator;
-
-import java.util.*;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Map;
+import java.util.Set;
+import java.util.SortedSet;
+import java.util.TreeSet;
 
 /**
  * This class is the reference implementation of the {@code ILowLevelPetriNet} interface.

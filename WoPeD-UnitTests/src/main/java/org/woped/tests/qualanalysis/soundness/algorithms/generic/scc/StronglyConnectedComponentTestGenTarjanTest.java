@@ -5,12 +5,10 @@ import static org.junit.Assert.assertTrue;
 
 import java.util.Set;
 
-
 import org.junit.Before;
 import org.junit.Test;
 import org.woped.qualanalysis.soundness.algorithms.generic.scc.StronglyConnectedComponentTestGenTarjan;
 import org.woped.qualanalysis.soundness.marking.IMarking;
-import org.woped.qualanalysis.soundness.marking.Marking;
 import org.woped.tests.qualanalysis.soundness.algorithms.testing.MNetMock;
 
 public class StronglyConnectedComponentTestGenTarjanTest {

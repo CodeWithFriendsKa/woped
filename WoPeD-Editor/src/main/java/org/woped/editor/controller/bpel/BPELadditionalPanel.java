@@ -28,14 +28,14 @@ import javax.swing.JTextField;
 import javax.swing.filechooser.FileFilter;
 import javax.xml.stream.XMLStreamException;
 
-import org.woped.core.model.bpel.BpelVariable;
 import org.woped.core.model.ModelElementContainer;
+import org.woped.core.model.bpel.BpelVariable;
 import org.woped.core.model.petrinet.TransitionModel;
 import org.woped.editor.controller.TransitionPropertyEditor;
-import org.woped.editor.controller.wsdl.Wsdl;
 import org.woped.editor.controller.wsdl.Message;
 import org.woped.editor.controller.wsdl.PartnerLinkType;
 import org.woped.editor.controller.wsdl.Role;
+import org.woped.editor.controller.wsdl.Wsdl;
 import org.woped.editor.controller.wsdl.WsdlFileRepresentation;
 import org.woped.gui.translations.Messages;
 

@@ -6,8 +6,11 @@ package org.woped.file.yawl;
 
 import java.util.ArrayList;
 
-import org.woped.file.yawl.wfnet.*;
+import org.woped.file.yawl.wfnet.Place;
+import org.woped.file.yawl.wfnet.Transition;
 import org.woped.file.yawl.wfnet.Transition.JoinSplitType;
+import org.woped.file.yawl.wfnet.WfNet;
+import org.woped.file.yawl.wfnet.WfNetNode;
 
 /**
  *

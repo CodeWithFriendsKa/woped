@@ -1,6 +1,7 @@
 package org.woped.core.controller;
 
 import java.awt.geom.Point2D;
+
 import org.jgraph.graph.DefaultGraphCell;
 import org.jgraph.graph.GraphCell;
 import org.woped.core.gui.ITokenGameController;

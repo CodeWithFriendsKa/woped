@@ -12,10 +12,10 @@ import javax.swing.JFrame;
 
 import org.woped.core.controller.AbstractApplicationMediator;
 import org.woped.core.controller.IEditor;
+import org.woped.gui.translations.Messages;
 import org.woped.qualanalysis.service.IQualanalysisService;
 import org.woped.qualanalysis.service.QualAnalysisServiceFactory;
 import org.woped.qualanalysis.sidebar.expert.ExpertPage;
-import org.woped.gui.translations.Messages;
 
 @SuppressWarnings("serial")
 public class NetAnalysisDialog extends JDialog implements WindowListener {

@@ -28,14 +28,7 @@
 package org.woped.editor.help;
 
 import java.io.File;
-import java.net.URL;
-import java.util.regex.Pattern;
 
-import javax.swing.JOptionPane;
-
-import org.woped.core.utilities.LoggerManager;
-import org.woped.core.utilities.Platform;
-import org.woped.editor.Constants;
 import org.woped.editor.help.action.LaunchDefaultBrowserAction;
 import org.woped.gui.translations.Messages;
 

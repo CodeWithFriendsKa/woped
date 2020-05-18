@@ -1,13 +1,13 @@
 package org.woped.qualanalysis.soundness.algorithms.basedonlowlevelpetrinet.scomponent;
 
+import java.util.HashSet;
+import java.util.Set;
+
 import org.woped.qualanalysis.soundness.algorithms.basedonlowlevelpetrinet.AbstractLowLevelPetriNetTest;
 import org.woped.qualanalysis.soundness.datamodel.AbstractNode;
 import org.woped.qualanalysis.soundness.datamodel.LowLevelPetriNet;
 import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
 import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
-
-import java.util.HashSet;
-import java.util.Set;
 
 
 

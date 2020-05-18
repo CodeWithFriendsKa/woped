@@ -21,13 +21,13 @@ import javax.swing.JScrollPane;
 
 import org.woped.core.config.DefaultStaticConfiguration;
 import org.woped.core.controller.IEditor;
+import org.woped.gui.translations.Messages;
 import org.woped.metrics.builder.MetricsBuilder;
 import org.woped.metrics.formulaEnhancement.FormulaEnhancementList;
 import org.woped.metrics.formulaEnhancement.FormulaEnhancementUI;
 import org.woped.metrics.metricsCalculation.MetricsUIRequestHandler;
 import org.woped.metrics.metricsCalculation.UITypes.UIMetricsGroup;
 import org.woped.metrics.sidebar.components.MetricGroup;
-import org.woped.gui.translations.Messages;
 
 /**
  * @author Mathias Gruschinske

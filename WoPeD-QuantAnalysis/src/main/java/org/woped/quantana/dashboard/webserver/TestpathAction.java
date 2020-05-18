@@ -1,9 +1,5 @@
 package org.woped.quantana.dashboard.webserver;
 
-import org.woped.quantana.dashboard.webserver.ThinServerAction;
-import org.woped.quantana.dashboard.webserver.Request;
-import org.woped.quantana.dashboard.webserver.Response;
-
 public class TestpathAction extends ThinServerAction {
 
     @Override

@@ -22,15 +22,30 @@
  */
 package org.woped.core.model;
 
-import org.jgraph.graph.DefaultPort;
-import org.woped.core.Constants;
-import org.woped.core.model.petrinet.*;
-import org.woped.core.utilities.LoggerManager;
-
-import java.awt.*;
+import java.awt.Dimension;
 import java.awt.geom.Point2D;
 import java.io.Serializable;
-import java.util.*;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Set;
+import java.util.Vector;
+
+import org.jgraph.graph.DefaultPort;
+import org.woped.core.Constants;
+import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
+import org.woped.core.model.petrinet.OperatorTransitionModel;
+import org.woped.core.model.petrinet.PlaceModel;
+import org.woped.core.model.petrinet.ResourceClassModel;
+import org.woped.core.model.petrinet.ResourceModel;
+import org.woped.core.model.petrinet.SimulationModel;
+import org.woped.core.model.petrinet.SubProcessModel;
+import org.woped.core.model.petrinet.Toolspecific;
+import org.woped.core.model.petrinet.TransitionModel;
+import org.woped.core.model.petrinet.TransitionResourceModel;
+import org.woped.core.model.petrinet.TriggerModel;
+import org.woped.core.utilities.LoggerManager;
 
 /**
  * @author <a href="mailto:slandes@kybeidos.de">Simon Landes </a> <br>

@@ -1,12 +1,12 @@
 package org.woped.qualanalysis.soundness.marking;
 
-import org.woped.qualanalysis.soundness.algorithms.generic.INode;
-import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
-import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
-
 import java.util.Set;
 import java.util.SortedMap;
 import java.util.SortedSet;
+
+import org.woped.qualanalysis.soundness.algorithms.generic.INode;
+import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
+import org.woped.qualanalysis.soundness.datamodel.TransitionNode;
 
 /**
  * This is a marking in a marking net compatible to the Woped reachability graph

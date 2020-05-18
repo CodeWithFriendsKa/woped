@@ -1,10 +1,20 @@
 package org.woped.qualanalysis.coverabilitygraph.gui.views;
 
-import org.jgraph.graph.*;
-import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.NodeFormatter;
+import java.awt.BasicStroke;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.Graphics;
+import java.awt.Graphics2D;
+import java.awt.Stroke;
 
-import java.awt.*;
+import org.jgraph.graph.AttributeMap;
+import org.jgraph.graph.CellView;
+import org.jgraph.graph.CellViewRenderer;
+import org.jgraph.graph.GraphConstants;
+import org.jgraph.graph.VertexRenderer;
+import org.jgraph.graph.VertexView;
+import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.NodeFormatter;
+import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
 public class CoverabilityGraphNodeView extends VertexView {
 

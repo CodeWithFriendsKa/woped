@@ -1,8 +1,16 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.sidebar;
 
-import javax.swing.*;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.GridBagConstraints;
+import java.awt.GridBagLayout;
+
+import javax.swing.Action;
+import javax.swing.BoxLayout;
+import javax.swing.JButton;
+import javax.swing.JLabel;
+import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
-import java.awt.*;
 
 /**
  * This class is responsible for displaying process steps in the info panel of the coverability graph assistant view

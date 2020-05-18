@@ -1,5 +1,11 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant;
 
+import java.awt.BorderLayout;
+import java.awt.Dimension;
+
+import javax.swing.JPanel;
+import javax.swing.JSplitPane;
+
 import org.woped.core.controller.IEditor;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.CoverabilityGraphAssistantUsingMonotonePruning;
 import org.woped.qualanalysis.coverabilitygraph.assistant.event.CoverabilityGraphAdapter;
@@ -16,9 +22,6 @@ import org.woped.qualanalysis.coverabilitygraph.gui.views.CoverabilityGraphWrapp
 import org.woped.qualanalysis.coverabilitygraph.gui.views.StatusBarView;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.NodeFormatter;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphModel;
-
-import javax.swing.*;
-import java.awt.*;
 
 /**
  * This class should be used to display a coverability graph assistant in a {@link CoverabilityGraphVC} to provide a consistent look & feel.

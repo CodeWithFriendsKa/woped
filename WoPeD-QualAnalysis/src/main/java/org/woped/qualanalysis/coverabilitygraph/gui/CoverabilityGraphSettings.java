@@ -1,11 +1,11 @@
 package org.woped.qualanalysis.coverabilitygraph.gui;
 
+import java.awt.Dimension;
+
 import org.jgraph.graph.Edge;
 import org.woped.qualanalysis.coverabilitygraph.gui.layout.CoverabilityGraphLayout;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.CoverabilityGraphColorScheme;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.formatters.MarkingFormatter;
-
-import java.awt.*;
 
 /**
  * Represents the customizable settings of the coverability graph.

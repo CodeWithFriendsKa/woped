@@ -10,11 +10,11 @@ import javax.swing.JPanel;
 
 import org.woped.core.config.DefaultStaticConfiguration;
 import org.woped.core.controller.IEditor;
+import org.woped.gui.translations.Messages;
 import org.woped.metrics.metricsCalculation.MetricsCalculator;
 import org.woped.qualanalysis.service.IQualanalysisService;
 import org.woped.qualanalysis.service.QualAnalysisServiceFactory;
 import org.woped.qualanalysis.sidebar.assistant.components.ClickLabel;
-import org.woped.gui.translations.Messages;
 
 /**
   * @author Mathias Gruschinske

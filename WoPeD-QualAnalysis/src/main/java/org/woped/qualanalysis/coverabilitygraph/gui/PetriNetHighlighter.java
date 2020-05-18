@@ -1,5 +1,11 @@
 package org.woped.qualanalysis.coverabilitygraph.gui;
 
+import java.awt.Color;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Set;
+import java.util.SortedSet;
+
 import org.jgraph.graph.AttributeMap;
 import org.jgraph.graph.GraphConstants;
 import org.woped.core.controller.IEditor;
@@ -11,12 +17,6 @@ import org.woped.qualanalysis.coverabilitygraph.events.EmptySpaceClickedEvent;
 import org.woped.qualanalysis.coverabilitygraph.events.NodeClickedEvent;
 import org.woped.qualanalysis.soundness.datamodel.PlaceNode;
 import org.woped.qualanalysis.soundness.marking.IMarking;
-
-import java.awt.*;
-import java.util.HashMap;
-import java.util.Map;
-import java.util.Set;
-import java.util.SortedSet;
 
 /**
  * This class adds highlighting to the petri net if an marking is selected in the coverability graph.

@@ -1,19 +1,21 @@
 package org.woped.qualanalysis.coverabilitygraph.gui;
 
-import org.jgraph.JGraph;
-import org.woped.core.config.ConfigurationManager;
-import org.woped.core.utilities.LoggerManager;
-import org.woped.gui.translations.Messages;
-import org.woped.qualanalysis.Constants;
-
-import javax.imageio.ImageIO;
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Dimension;
+import java.awt.Graphics2D;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;
 import java.awt.image.RenderedImage;
 import java.io.File;
 import java.io.IOException;
+
+import javax.imageio.ImageIO;
+import javax.swing.JOptionPane;
+
+import org.jgraph.JGraph;
+import org.woped.core.config.ConfigurationManager;
+import org.woped.core.utilities.LoggerManager;
+import org.woped.gui.translations.Messages;
+import org.woped.qualanalysis.Constants;
 
 class ImageExport {
 	

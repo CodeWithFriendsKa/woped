@@ -1,39 +1,18 @@
 package org.woped.qualanalysis.paraphrasing.controller;
 
 import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.StringReader;
-import java.math.BigDecimal;
-import java.text.DateFormat;
-import java.util.*;
 
 import javax.swing.JOptionPane;
-import javax.xml.parsers.DocumentBuilder;
-import javax.xml.parsers.DocumentBuilderFactory;
 import javax.xml.ws.WebServiceException;
-import javax.xml.xpath.XPath;
-import javax.xml.xpath.XPathFactory;
 
-import org.apache.xmlbeans.XmlCursor;
-import org.apache.xmlbeans.XmlException;
-import org.apache.xmlbeans.XmlOptions;
-import org.w3c.dom.Document;
 import org.woped.core.config.ConfigurationManager;
 import org.woped.core.controller.IEditor;
-import org.woped.core.model.ModelElementContainer;
-import org.woped.core.model.PetriNetModelProcessor;
-import org.woped.core.model.bpel.Partnerlink;
-import org.woped.core.model.petrinet.*;
-import org.woped.core.utilities.LoggerManager;
 import org.woped.gui.translations.Messages;
-import org.woped.pnml.*;
 import org.woped.qualanalysis.p2t.P2TSideBar;
 import org.woped.qualanalysis.p2t.Process2Text;
 import org.woped.qualanalysis.paraphrasing.webservice.PNMLExport;
 import org.woped.qualanalysis.paraphrasing.webservice.ProcessToTextWebService;
 import org.woped.qualanalysis.paraphrasing.webservice.ProcessToTextWebServiceImpl;
-import org.xml.sax.InputSource;
-//import org.woped.p2t.textGenerator.*;
 
 public class WebServiceThread extends Thread {
 

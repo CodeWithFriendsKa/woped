@@ -16,10 +16,6 @@ import javax.swing.table.DefaultTableModel;
 import javax.swing.table.TableModel;
 import javax.swing.table.TableRowSorter;
 
-import net.coderazzi.filters.Filter;
-import net.coderazzi.filters.gui.AutoChoices;
-import net.coderazzi.filters.gui.TableFilterHeader;
-
 import org.woped.apromore.ApromoreAccess;
 import org.woped.apromore.Constants;
 import org.woped.core.controller.AbstractApplicationMediator;
@@ -30,6 +26,10 @@ import org.woped.file.PNMLExport;
 import org.woped.file.PNMLImport;
 import org.woped.file.apromore.tree.ApromoreFolderTree;
 import org.woped.gui.translations.Messages;
+
+import net.coderazzi.filters.Filter;
+import net.coderazzi.filters.gui.AutoChoices;
+import net.coderazzi.filters.gui.TableFilterHeader;
 
 /**
  */

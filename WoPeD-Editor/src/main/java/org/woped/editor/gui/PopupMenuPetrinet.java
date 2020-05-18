@@ -25,6 +25,12 @@
  */
 package org.woped.editor.gui;
 
+import java.awt.EventQueue;
+import java.beans.PropertyChangeEvent;
+
+import javax.swing.JMenuItem;
+import javax.swing.JPopupMenu;
+
 import org.woped.core.controller.AbstractApplicationMediator;
 import org.woped.core.controller.AbstractGraph;
 import org.woped.core.model.ArcModel;
@@ -32,10 +38,6 @@ import org.woped.core.model.petrinet.GroupModel;
 import org.woped.editor.action.WoPeDAction;
 import org.woped.editor.controller.ActionFactory;
 import org.woped.editor.controller.VisualController;
-
-import javax.swing.*;
-import java.awt.*;
-import java.beans.PropertyChangeEvent;
 
 /**
  * Creates the Popupmenu and adds the MenuItems to the VisualController.

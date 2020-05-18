@@ -1,11 +1,22 @@
 package org.woped.editor.controller.vep;
 
+import java.awt.MouseInfo;
+import java.awt.Point;
+import java.util.Iterator;
+
+import javax.swing.JFrame;
+
 import org.woped.core.controller.AbstractApplicationMediator;
 import org.woped.core.controller.AbstractEventProcessor;
 import org.woped.core.controller.AbstractViewEvent;
 import org.woped.core.model.ArcModel;
 import org.woped.core.model.CreationMap;
-import org.woped.core.model.petrinet.*;
+import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
+import org.woped.core.model.petrinet.GroupModel;
+import org.woped.core.model.petrinet.OperatorTransitionModel;
+import org.woped.core.model.petrinet.PlaceModel;
+import org.woped.core.model.petrinet.TransitionModel;
+import org.woped.core.model.petrinet.TriggerModel;
 import org.woped.core.utilities.LoggerManager;
 import org.woped.editor.Constants;
 import org.woped.editor.controller.ArcPropertyEditor;
@@ -14,10 +25,6 @@ import org.woped.editor.controller.TransitionPropertyEditor;
 import org.woped.editor.controller.vc.EditorVC;
 import org.woped.qualanalysis.simulation.TokenGameBarListener;
 import org.woped.qualanalysis.simulation.TokenGameSession;
-
-import javax.swing.*;
-import java.awt.*;
-import java.util.Iterator;
 
 public class EditorEventProcessor extends AbstractEventProcessor {
     public EditorEventProcessor(AbstractApplicationMediator mediator) {

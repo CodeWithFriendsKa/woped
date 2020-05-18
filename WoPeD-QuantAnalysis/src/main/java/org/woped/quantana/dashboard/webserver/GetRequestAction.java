@@ -1,30 +1,17 @@
 package org.woped.quantana.dashboard.webserver;
 
 
-import java.awt.image.BufferedImage;
-import java.awt.image.RenderedImage;
-import java.io.ByteArrayOutputStream;
-import java.io.IOException;
-import java.io.OutputStream;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import javax.imageio.ImageIO;
-import javax.swing.ImageIcon;
-
-import com.google.gson.Gson;
-
 import org.woped.core.utilities.LoggerManager;
-import org.woped.gui.translations.Messages;
-import org.woped.quantana.dashboard.webserver.ThinServerAction;
-import org.woped.quantana.dashboard.webserver.TemplateEngine;
-import org.woped.quantana.dashboard.webserver.Request;
-import org.woped.quantana.dashboard.webserver.Response;
 import org.woped.quantana.dashboard.storage.SaveConfig;
 import org.woped.quantana.dashboard.storage.SimulationRessourceAllocData;
 import org.woped.quantana.dashboard.storage.SimulationStorageEntry;
 import org.woped.quantana.dashboard.storage.TableInfo;
 import org.woped.quantana.sim.SimParameters;
+
+import com.google.gson.Gson;
 
 /**
  * 

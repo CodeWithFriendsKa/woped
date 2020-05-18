@@ -1,7 +1,7 @@
 package org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.event;
 
-import org.woped.qualanalysis.coverabilitygraph.events.NodeEvent;
 import org.woped.qualanalysis.coverabilitygraph.assistant.algorithms.mp.model.MpNode;
+import org.woped.qualanalysis.coverabilitygraph.events.NodeEvent;
 
 /**
  * This event occurs if a node is related to the node currently processed.

@@ -1,14 +1,16 @@
 package org.woped.file.t2p;
 
+import java.awt.FileDialog;
+import java.io.File;
+import java.io.FilenameFilter;
+import java.util.Scanner;
+
+import javax.swing.JFileChooser;
+import javax.swing.JFrame;
+
 import org.woped.core.config.ConfigurationManager;
 import org.woped.core.utilities.FileFilterImpl;
 import org.woped.core.utilities.Platform;
-
-import java.awt.*;
-import java.io.FilenameFilter;
-import java.util.Scanner;
-import javax.swing.*;
-import java.io.File;
 
 public class PlainTextFileReader implements FileReader {
 	private JFileChooser chooser = new JFileChooser();

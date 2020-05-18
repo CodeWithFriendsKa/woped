@@ -1,15 +1,16 @@
 package org.woped.qualanalysis.coverabilitygraph.gui;
 
+import java.awt.event.MouseEvent;
+import java.awt.geom.Rectangle2D;
+
+import javax.swing.ToolTipManager;
+
 import org.jgraph.JGraph;
 import org.jgraph.graph.DefaultGraphModel;
 import org.jgraph.graph.GraphLayoutCache;
 import org.jgraph.graph.GraphModel;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
-
-import javax.swing.*;
-import java.awt.event.MouseEvent;
-import java.awt.geom.Rectangle2D;
 
 /**
  * This class is in charge for displaying the coverability graph.

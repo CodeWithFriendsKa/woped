@@ -1,16 +1,17 @@
 package org.woped.qualanalysis.sidebar.assistant.components;
 
-import org.woped.core.controller.IEditor;
-import org.woped.core.model.ArcModel;
-import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
-
-import javax.swing.*;
-import java.awt.*;
+import java.awt.Cursor;
 import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.ArrayList;
 import java.util.Collection;
 import java.util.Iterator;
+
+import javax.swing.JLabel;
+
+import org.woped.core.controller.IEditor;
+import org.woped.core.model.ArcModel;
+import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
 
 /**
  * Class for the clickable Labels which highlight elements in the net

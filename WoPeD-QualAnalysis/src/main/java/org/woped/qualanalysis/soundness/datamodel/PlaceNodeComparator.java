@@ -1,9 +1,9 @@
 package org.woped.qualanalysis.soundness.datamodel;
 
 
-import org.woped.core.utilities.ShortLexStringComparator;
-
 import java.util.Comparator;
+
+import org.woped.core.utilities.ShortLexStringComparator;
 
 /**
  * Compares place nodes by their id using the short lex ordering of strings

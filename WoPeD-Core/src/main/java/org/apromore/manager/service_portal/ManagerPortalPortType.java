@@ -7,6 +7,7 @@ import javax.jws.WebResult;
 import javax.jws.WebService;
 import javax.jws.soap.SOAPBinding;
 import javax.xml.bind.annotation.XmlSeeAlso;
+
 import org.apromore.manager.model_portal.DeleteEditSessionInputMsgType;
 import org.apromore.manager.model_portal.DeleteEditSessionOutputMsgType;
 import org.apromore.manager.model_portal.DeleteProcessVersionsInputMsgType;

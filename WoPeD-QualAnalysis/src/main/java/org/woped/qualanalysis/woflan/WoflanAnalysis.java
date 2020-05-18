@@ -7,13 +7,13 @@ import java.util.Iterator;
 import java.util.List;
 import java.util.Set;
 
-import org.woped.qualanalysis.algorithms.Woflan;
 import org.woped.core.controller.IEditor;
 import org.woped.core.model.ModelElementContainer;
 import org.woped.core.model.petrinet.AbstractPetriNetElementModel;
 import org.woped.core.model.petrinet.OperatorTransitionModel;
 import org.woped.core.utilities.LoggerManager;
 import org.woped.qualanalysis.Constants;
+import org.woped.qualanalysis.algorithms.Woflan;
 import org.woped.qualanalysis.service.interfaces.ISComponent;
 import org.woped.qualanalysis.service.interfaces.ISoundnessCheck;
 

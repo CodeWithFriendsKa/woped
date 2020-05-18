@@ -3,13 +3,6 @@ package org.woped.quantana.dashboard.webserver;
 
 
 import org.woped.core.utilities.LoggerManager;
-import org.woped.quantana.dashboard.webserver.DynamicPathAction;
-import org.woped.quantana.dashboard.webserver.ExampleAction;
-import org.woped.quantana.dashboard.webserver.GetRequestAction;
-import org.woped.quantana.dashboard.webserver.PostRequestAction;
-import org.woped.quantana.dashboard.webserver.TestpathAction;
-import org.woped.quantana.dashboard.webserver.ThinServer;
-import org.woped.quantana.dashboard.webserver.ClientStarter;
 import org.woped.quantana.dashboard.storage.StorageEngine;
 //import org.woped.quantana.gui.EmbeddedBrowserView;
 

@@ -2,7 +2,12 @@ package org.woped.editor.graphbeautifier;
 
 import java.awt.Point;
 import java.awt.geom.Point2D;
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashMap;
+import java.util.HashSet;
+import java.util.Iterator;
+import java.util.Vector;
 
 import org.woped.core.model.ArcModel;
 import org.woped.core.model.ModelElementContainer;

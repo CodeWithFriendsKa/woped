@@ -1,5 +1,26 @@
 package org.woped.qualanalysis.coverabilitygraph.gui;
 
+import java.awt.BorderLayout;
+import java.awt.Color;
+import java.awt.Dimension;
+import java.awt.image.RenderedImage;
+import java.beans.PropertyVetoException;
+import java.io.File;
+import java.io.IOException;
+import java.nio.file.Files;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.LinkedList;
+import java.util.Map;
+import java.util.Vector;
+
+import javax.swing.BorderFactory;
+import javax.swing.JDesktopPane;
+import javax.swing.JFileChooser;
+import javax.swing.JInternalFrame;
+import javax.swing.event.InternalFrameAdapter;
+import javax.swing.event.InternalFrameEvent;
+
 import org.woped.core.config.ConfigurationManager;
 import org.woped.core.controller.IEditor;
 import org.woped.core.gui.IEditorFrame;
@@ -14,17 +35,6 @@ import org.woped.qualanalysis.coverabilitygraph.gui.dialogs.CoverabilityGraphSet
 import org.woped.qualanalysis.coverabilitygraph.gui.dialogs.CoverabilityGraphWarning;
 import org.woped.qualanalysis.coverabilitygraph.gui.views.CoverabilityGraphResultView;
 import org.woped.qualanalysis.soundness.marking.IMarking;
-
-import javax.swing.*;
-import javax.swing.event.InternalFrameAdapter;
-import javax.swing.event.InternalFrameEvent;
-import java.awt.*;
-import java.awt.image.RenderedImage;
-import java.beans.PropertyVetoException;
-import java.io.File;
-import java.io.IOException;
-import java.nio.file.Files;
-import java.util.*;
 
 /**
  * This class manages the internal frame that is in charge of displaying the coverability graph.

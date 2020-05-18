@@ -56,12 +56,12 @@ import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.PlainDocument;
 
+import org.woped.apromore.ApromoreAccess;
+import org.woped.apromore.ApromorePasswordSecurity;
 import org.woped.config.ApromoreServer;
 import org.woped.core.config.ConfigurationManager;
 import org.woped.gui.lookAndFeel.WopedButton;
 import org.woped.gui.translations.Messages;
-import org.woped.apromore.ApromoreAccess;
-import org.woped.apromore.ApromorePasswordSecurity;
 
 /**
  * @author <a href="mailto:slandes@kybeidos.de">Simon Landes </a> <br>
