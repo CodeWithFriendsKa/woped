@@ -5,10 +5,14 @@ pipeline {
 
     stages {
         stage('test') {
-            sh 'test stage works'
+            steps {
+                sh 'test stage works'
+            }
         }
         stage('build') {
-            sh 'build stage works'
+            steps {
+                sh 'build stage works'
+            }
         }
     }
 }
