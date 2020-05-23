@@ -1,10 +1,7 @@
 pipeline {
-    /*
     agent {
-        docker 'maven:3.6.3-jdk-11'
+        docker { image 'maven:3-alpine' }
     }
-    */
-    agent: any
 
     stages {
         stage('test') {
