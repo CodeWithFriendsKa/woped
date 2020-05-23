@@ -4,9 +4,7 @@ pipeline {
         docker 'maven:3.6.3-jdk-11'
     }
     */
-    agent {
-        any
-    }
+    agent: any
 
     stages {
         stage('test') {
