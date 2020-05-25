@@ -21,13 +21,13 @@
 		<dependency>
 			<groupId>org.woped</groupId>
 			<artifactId>confBeans</artifactId>
-			<version>2</version>
+			<version>0</version>
 		</dependency>
 
 		<dependency>
 			<groupId>org.woped</groupId>
 			<artifactId>metricsBeans</artifactId>
-			<version>2</version>
+			<version>0</version>
 		</dependency>
 
 
