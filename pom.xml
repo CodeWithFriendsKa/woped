@@ -16,6 +16,9 @@
     </dependencies>
 
     <modules>
+        <module>WoPeD-FileInterface</module>
+        <module>WoPeD-BPELExport</module>
+
         <module>WoPeD-CommonLibs</module>
         <module>WoPeD-Core</module>
         <module>WoPeD-Flamingo</module>
