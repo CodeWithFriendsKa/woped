@@ -26,6 +26,8 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.net.URL;
+import java.util.Enumeration;
 import java.util.Locale;
 
 import javax.swing.JFrame;
@@ -189,6 +191,14 @@ public class RunWoPeD extends JFrame {
 	 * Init loggers for different WoPeD components
 	 **/
 	private void initLogging() {
+
+		try {
+			Enumeration<URL> res = this.getClass().getClassLoader().getResources(".");
+			System.out.println(".");
+		} catch (Exception e) {
+
+		}
+
 		DOMConfigurator.configure(RunWoPeD.class.getResource("/org/woped/starter/utilities/log4j.xml"));
 
 		LoggerManager.register(new WopedLogger(org.apache.log4j.Logger.getLogger(Constants.GUI_LOGGER)),
