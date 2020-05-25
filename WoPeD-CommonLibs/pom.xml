@@ -17,7 +17,6 @@
 
 	<name>WoPeD-CommonLibs</name>
 
-
 	<dependencies>
 
 		<!-- Lokale Dependencies -->
@@ -65,16 +64,12 @@
 			<groupId>org</groupId>
 			<artifactId>jgraph</artifactId>
 			<version>5.10.2</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/jgraph-5.10.2.jar</systemPath>
 		</dependency>
 
 		<dependency>
 			<groupId>org</groupId>
 			<artifactId>jgraphx</artifactId>
 			<version>1.5.1</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/jgraphx-1.5.1.jar</systemPath>
 		</dependency>
 
 		<dependency>

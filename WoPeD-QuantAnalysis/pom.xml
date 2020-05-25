@@ -49,11 +49,35 @@
 			<systemPath>${project.basedir}/src/main/resources/jfreechart-1.0.12.jar</systemPath>
 		</dependency>
 
+
 		<dependency>
 			<groupId>org.woped</groupId>
 			<artifactId>WoPeD-CommonLibs</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.apache.xmlbeans</groupId>
+					<artifactId>xmlbeans</artifactId>
+				</exclusion>
+				<exclusion>
+					<groupId>org</groupId>
+					<artifactId>jgraph</artifactId>
+				</exclusion>
+			</exclusions>
 		</dependency>
+
+		<dependency>
+			<groupId>org.apache.xmlbeans</groupId>
+			<artifactId>xmlbeans</artifactId>
+			<version>2.3.0</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org</groupId>
+			<artifactId>jgraph</artifactId>
+			<version>5.10.2</version>
+		</dependency>
+
 		<dependency>
 			<groupId>org.woped</groupId>
 			<artifactId>WoPeD-Configuration</artifactId>
