@@ -192,14 +192,7 @@ public class RunWoPeD extends JFrame {
 	 **/
 	private void initLogging() {
 
-		try {
-			Enumeration<URL> res = this.getClass().getClassLoader().getResources(".");
-			System.out.println(".");
-		} catch (Exception e) {
-
-		}
-
-		DOMConfigurator.configure(RunWoPeD.class.getResource("/org/woped/starter/utilities/log4j.xml"));
+		DOMConfigurator.configure(RunWoPeD.class.getResource("/log4j.xml"));
 
 		LoggerManager.register(new WopedLogger(org.apache.log4j.Logger.getLogger(Constants.GUI_LOGGER)),
 				Constants.GUI_LOGGER);
