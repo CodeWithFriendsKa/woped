@@ -52,17 +52,7 @@
 		<dependency>
 			<groupId>org.woped</groupId>
 			<artifactId>bpelBeans</artifactId>
-			<version>0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/bpelBeans.jar</systemPath>
-		</dependency>
-
-		<dependency>
-			<groupId>org.woped</groupId>
-			<artifactId>pnmlBeans</artifactId>
-			<version>0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/pnmlBeans.jar</systemPath>
+			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
