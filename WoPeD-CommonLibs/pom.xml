@@ -68,13 +68,10 @@
 		</dependency>
 
 		<dependency>
-			<groupId>org</groupId>
+			<groupId>log4j</groupId>
 			<artifactId>log4j</artifactId>
 			<version>1.2.8</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/log4j-1.2.8.jar</systemPath>
 		</dependency>
-
 		<dependency>
 			<groupId>org.apache.xmlbeans</groupId>
 			<artifactId>xmlbeans</artifactId>
