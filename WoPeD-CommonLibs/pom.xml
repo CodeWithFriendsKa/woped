@@ -12,7 +12,6 @@
 
 	<artifactId>WoPeD-CommonLibs</artifactId>
 	<packaging>jar</packaging>
-	<groupId>org.woped</groupId>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>

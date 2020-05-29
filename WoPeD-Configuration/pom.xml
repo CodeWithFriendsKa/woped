@@ -12,7 +12,6 @@
 
 	<artifactId>WoPeD-Configuration</artifactId>
 	<packaging>jar</packaging>
-	<groupId>org.woped</groupId>
 
 	<name>WoPeD-Configuration</name>
 

@@ -12,7 +12,6 @@
 
 	<artifactId>WoPeD-GUI</artifactId>
 	<packaging>jar</packaging>
-	<groupId>org.woped</groupId>
 
 	<name>WoPeD-GUI</name>
 
