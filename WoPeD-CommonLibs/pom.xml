@@ -45,6 +45,12 @@
 
 		<dependency>
 			<groupId>org.woped</groupId>
+			<artifactId>pnmlBeans</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.woped</groupId>
 			<artifactId>bpelBeans</artifactId>
 			<version>0</version>
 			<scope>system</scope>
