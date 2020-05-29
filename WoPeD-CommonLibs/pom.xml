@@ -25,7 +25,6 @@
 
 	<dependencies>
 
-		<!-- Lokale Dependencies -->
 		<dependency>
 			<groupId>org.springframework</groupId>
 			<artifactId>spring-ws-core</artifactId>
@@ -36,10 +35,14 @@
 
 		<dependency>
 			<groupId>org.woped</groupId>
-			<artifactId>config</artifactId>
-			<version>0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/confBeans.jar</systemPath>
+			<artifactId>configBeans</artifactId>
+			<version>${project.version}</version>
+		</dependency>
+
+		<dependency>
+			<groupId>org.woped</groupId>
+			<artifactId>metricsBeans</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>
@@ -56,14 +59,6 @@
 			<version>0</version>
 			<scope>system</scope>
 			<systemPath>${project.basedir}/src/main/resources/pnmlBeans.jar</systemPath>
-		</dependency>
-
-		<dependency>
-			<groupId>org.woped</groupId>
-			<artifactId>metricsBeans</artifactId>
-			<version>0</version>
-			<scope>system</scope>
-			<systemPath>${project.basedir}/src/main/resources/metricsBeans.jar</systemPath>
 		</dependency>
 
 		<dependency>

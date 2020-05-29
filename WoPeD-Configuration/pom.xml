@@ -24,10 +24,10 @@
 	</properties>
 
 	<dependencies>
-		<dependency>
+		<dependency> 
 			<groupId>org.woped</groupId>
-			<artifactId>confBeans</artifactId>
-			<version>0</version>
+			<artifactId>configBeans</artifactId>
+			<version>${project.version}</version>
 		</dependency>
 
 		<dependency>

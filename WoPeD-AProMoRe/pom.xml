@@ -9,12 +9,10 @@
 		<artifactId>WoPeD</artifactId>
 		<version>0.0.1-SNAPSHOT</version>
 	</parent>
-
+  
 	<artifactId>WoPeD-AProMoRe</artifactId>
 	<packaging>jar</packaging>
 	<groupId>org.woped</groupId>
-	<version>0.0.1-SNAPSHOT</version>
-
 	<name>WoPeD-AProMoRe</name>
 
 	<properties>
