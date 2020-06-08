@@ -1,48 +1,13 @@
 
 package org.apromore.manager.service_portal;
 
-import javax.jws.WebMethod;
-import javax.jws.WebParam;
-import javax.jws.WebResult;
-import javax.jws.WebService;
-import javax.jws.soap.SOAPBinding;
-import javax.xml.bind.annotation.XmlSeeAlso;
-
-import org.apromore.manager.model_portal.DeleteEditSessionInputMsgType;
-import org.apromore.manager.model_portal.DeleteEditSessionOutputMsgType;
-import org.apromore.manager.model_portal.DeleteProcessVersionsInputMsgType;
-import org.apromore.manager.model_portal.DeleteProcessVersionsOutputMsgType;
-import org.apromore.manager.model_portal.EditProcessDataInputMsgType;
-import org.apromore.manager.model_portal.EditProcessDataOutputMsgType;
-import org.apromore.manager.model_portal.ExportFormatInputMsgType;
-import org.apromore.manager.model_portal.ExportFormatOutputMsgType;
-import org.apromore.manager.model_portal.ImportProcessInputMsgType;
-import org.apromore.manager.model_portal.ImportProcessOutputMsgType;
-import org.apromore.manager.model_portal.MergeProcessesInputMsgType;
-import org.apromore.manager.model_portal.MergeProcessesOutputMsgType;
-import org.apromore.manager.model_portal.ObjectFactory;
-import org.apromore.manager.model_portal.ReadAllUsersInputMsgType;
-import org.apromore.manager.model_portal.ReadAllUsersOutputMsgType;
-import org.apromore.manager.model_portal.ReadDomainsInputMsgType;
-import org.apromore.manager.model_portal.ReadDomainsOutputMsgType;
-import org.apromore.manager.model_portal.ReadEditSessionInputMsgType;
-import org.apromore.manager.model_portal.ReadEditSessionOutputMsgType;
-import org.apromore.manager.model_portal.ReadNativeTypesInputMsgType;
-import org.apromore.manager.model_portal.ReadNativeTypesOutputMsgType;
-import org.apromore.manager.model_portal.ReadProcessSummariesInputMsgType;
-import org.apromore.manager.model_portal.ReadProcessSummariesOutputMsgType;
-import org.apromore.manager.model_portal.ReadUserInputMsgType;
-import org.apromore.manager.model_portal.ReadUserOutputMsgType;
-import org.apromore.manager.model_portal.SearchForSimilarProcessesInputMsgType;
-import org.apromore.manager.model_portal.SearchForSimilarProcessesOutputMsgType;
-import org.apromore.manager.model_portal.UpdateProcessInputMsgType;
-import org.apromore.manager.model_portal.UpdateProcessOutputMsgType;
-import org.apromore.manager.model_portal.WriteAnnotationInputMsgType;
-import org.apromore.manager.model_portal.WriteAnnotationOutputMsgType;
-import org.apromore.manager.model_portal.WriteEditSessionInputMsgType;
-import org.apromore.manager.model_portal.WriteEditSessionOutputMsgType;
-import org.apromore.manager.model_portal.WriteUserInputMsgType;
-import org.apromore.manager.model_portal.WriteUserOutputMsgType;
+import jakarta.jws.WebMethod;
+import jakarta.jws.WebParam;
+import jakarta.jws.WebResult;
+import jakarta.jws.WebService;
+import jakarta.jws.soap.SOAPBinding;
+import jakarta.xml.bind.annotation.XmlSeeAlso;
+import org.apromore.manager.model_portal.*;
 
 
 /**

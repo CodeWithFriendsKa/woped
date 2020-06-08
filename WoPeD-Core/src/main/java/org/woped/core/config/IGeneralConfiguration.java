@@ -1,11 +1,10 @@
 package org.woped.core.config;
 
-import java.awt.Color;
-import java.awt.Dimension;
+import org.woped.config.ApromoreServer;
+
+import java.awt.*;
 import java.util.Locale;
 import java.util.Vector;
-
-import org.woped.config.ApromoreServer;
 
 /**
  * Interface defining the public capabilities of the general WoPeD configuration

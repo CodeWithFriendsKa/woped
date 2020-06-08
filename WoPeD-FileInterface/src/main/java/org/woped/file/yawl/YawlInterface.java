@@ -4,17 +4,13 @@
  */
 package org.woped.file.yawl;
 
-import java.awt.Toolkit;
+import org.woped.file.yawl.wfnet.AutoLayout;
+import org.woped.file.yawl.wfnet.WfNet;
+
+import java.awt.*;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.io.File;
-import java.util.logging.Level;
-import java.util.logging.Logger;
-
-import javax.xml.bind.JAXBException;
-
-import org.woped.file.yawl.wfnet.AutoLayout;
-import org.woped.file.yawl.wfnet.WfNet;
 
 /**
  *
@@ -23,7 +19,7 @@ import org.woped.file.yawl.wfnet.WfNet;
 public class YawlInterface {
 
     /**
-     * @param args the command line arguments
+     * @param file the command line arguments
      */
     public static String importYawlFile(File file) {
         // TODO code application logic here
@@ -34,30 +30,22 @@ public class YawlInterface {
     	String output = "";
     	
         YawlImport yi = new YawlImport();
-        try {
 
-            WfNet wfNet = yi.importYawlXml(file);
+        WfNet wfNet = yi.importYawlXml(file);
 
-            YawlToPnmlTransform tf = new YawlToPnmlTransform(wfNet);
-            tf.Transform();
-            
-            AutoLayout al =new AutoLayout(wfNet);
-            al.Layout();
+        YawlToPnmlTransform tf = new YawlToPnmlTransform(wfNet);
+        tf.Transform();
 
-            PnmlOutput po = new PnmlOutput(wfNet);
+        AutoLayout al =new AutoLayout(wfNet);
+        al.Layout();
 
-            output = po.getPnmlOutput();
+        PnmlOutput po = new PnmlOutput(wfNet);
 
-            //setClipboardContents(output);
+        output = po.getPnmlOutput();
 
-            
+        //setClipboardContents(output);
 
-        } catch (JAXBException ex) {
-            Logger.getLogger(YawlInterface.class.getName()).log(Level.SEVERE, null, ex);
-        }
-        
-        
-        
+
         return output;
 
     }

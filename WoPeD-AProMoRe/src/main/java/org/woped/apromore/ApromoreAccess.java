@@ -11,10 +11,10 @@ import java.util.*;
 import java.util.concurrent.CopyOnWriteArraySet;
 
 import javax.swing.JOptionPane;
-import javax.xml.soap.MessageFactory;
-import javax.xml.soap.SOAPException;
 
 import org.apache.http.conn.ConnectTimeoutException;
+import org.apache.xmlbeans.impl.soap.MessageFactory;
+import org.apache.xmlbeans.impl.soap.SOAPException;
 import org.apromore.manager.client.ManagerService;
 import org.apromore.manager.client.ManagerServiceClient;
 import org.apromore.model.ExportFormatResultType;
@@ -73,7 +73,7 @@ public class ApromoreAccess {
 		return true;
 	}
 
-	public void connect(String uri) throws SOAPException {
+	public void connect(String uri) throws  SOAPException {
 		httpCms = new HttpComponentsMessageSender();
 		httpCms.setReadTimeout(READ_TIMEOUT);
 		httpCms.setConnectionTimeout(CONNECTION_TIMEOUT);

@@ -913,7 +913,6 @@ public class DefaultStaticConfiguration implements IGeneralConfiguration {
 	@Override
 	public void setApromoreManagerPath(String path) {
 		apromore_managerPath = path;
-
 	}
 
 	@Override
@@ -924,7 +923,6 @@ public class DefaultStaticConfiguration implements IGeneralConfiguration {
 	@Override
 	public void setApromorePassword(String pwd) {
 		apromore_password = pwd;
-
 	}
 
 	@Override
