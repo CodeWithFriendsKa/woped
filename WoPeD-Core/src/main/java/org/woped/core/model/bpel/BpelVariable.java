@@ -1,8 +1,9 @@
 package org.woped.core.model.bpel;
 
-import javax.xml.namespace.QName;
 
 import org.oasisOpen.docs.wsbpel.x20.process.executable.TVariable;
+
+import javax.xml.namespace.QName;
 
 public class BpelVariable {
 

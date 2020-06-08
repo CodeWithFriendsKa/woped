@@ -7,7 +7,7 @@ import org.jgraph.graph.GraphModel;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphEdge;
 import org.woped.qualanalysis.coverabilitygraph.model.CoverabilityGraphNode;
 
-import javax.swing.*;
+import javax.swing.ToolTipManager;
 import java.awt.event.MouseEvent;
 import java.awt.geom.Rectangle2D;
 

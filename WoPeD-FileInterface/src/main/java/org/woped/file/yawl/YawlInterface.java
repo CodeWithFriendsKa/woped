@@ -4,6 +4,7 @@
  */
 package org.woped.file.yawl;
 
+import jakarta.xml.bind.JAXBException;
 import org.woped.file.yawl.wfnet.AutoLayout;
 import org.woped.file.yawl.wfnet.WfNet;
 
@@ -21,7 +22,7 @@ public class YawlInterface {
     /**
      * @param file the command line arguments
      */
-    public static String importYawlFile(File file) {
+    public static String importYawlFile(File file) throws JAXBException {
         // TODO code application logic here
 
         //String path = "C:\\Users\\Chris\\Documents\\__pnml_yawl\\orsplit.yawl";
