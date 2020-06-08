@@ -22,6 +22,7 @@ import java.util.Locale;
 import java.util.logging.Level;
 import java.util.logging.Logger;
 
+
 /**
  *
  * @author Chris
@@ -36,7 +37,7 @@ public class YawlImport {
         // Use JAXB to import the YAWL XML file
         JAXBContext yawlJc = JAXBContext.newInstance("org.woped.file.yawlinterface.yawlmodel");
         Unmarshaller unmarshaller = yawlJc.createUnmarshaller();
-        JAXBElement<?> jaxbElement = (JAXBElement<?>) unmarshaller.unmarshal(file);
+        jakarta.xml.bind.JAXBElement<?> jaxbElement = (JAXBElement<?>) unmarshaller.unmarshal(file);
 
         SpecificationSetFactsType yawlRootElement = (SpecificationSetFactsType) jaxbElement.getValue();
 
