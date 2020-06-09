@@ -80,7 +80,8 @@ public class ApromoreAccess {
 
 		serviceMarshaller = new Jaxb2Marshaller();
 		serviceMarshaller.setContextPath("org.apromore.model");
-		soapMsgFactory = new SaajSoapMessageFactory(MessageFactory.newInstance());
+		//TODO Gruppe 2020
+		soapMsgFactory = new SaajSoapMessageFactory();
 		soapMsgFactory.setSoapVersion(org.springframework.ws.soap.SoapVersion.SOAP_11);
 
 		wsTemp = new WebServiceTemplate(soapMsgFactory);
