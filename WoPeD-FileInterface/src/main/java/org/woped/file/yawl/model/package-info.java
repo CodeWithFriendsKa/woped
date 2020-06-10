@@ -5,5 +5,5 @@
 // Generated on: 2013.08.18 at 08:57:29 AM CEST 
 //
 
-@jakarta.xml.bind.annotation.XmlSchema(namespace = "http://www.yawlfoundation.org/yawlschema", elementFormDefault = jakarta.xml.bind.annotation.XmlNsForm.QUALIFIED)
+@javax.xml.bind.annotation.XmlSchema(namespace = "http://www.yawlfoundation.org/yawlschema", elementFormDefault = javax.xml.bind.annotation.XmlNsForm.QUALIFIED)
 package org.woped.file.yawl.model;

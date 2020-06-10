@@ -9,29 +9,15 @@ pipeline {
     stages {
         stage('test') {
             steps {
-                sh 'mvn test'
+                sh 'mvn --version'
             }
         }
         stage('build') {
             steps {
+                //sh 'cd WoPeD-CommonLibs/src/main/resources'
+                //sh 'mvn install:install-file -Dfile=jgraph-5.10.2 -DgroupId=org -DartifactId=jgraph -Dversion=5.10.2 -Dpackaging=jar -DgeneratePom=true'
+                //sh 'mvn install:install-file -Dfile=jgraphx-1.5.1.jar -DgroupId=org -DartifactId=jgraphx -Dversion=1.5.1 -Dpackaging=jar -DgeneratePom=true'
                 sh 'mvn install'
-            }
-        }
-        stage('exe erzeugen') {
-            steps {
-                sh 'cd WoPed-Installer'
-                sh 'mvn package'
-            }
-        }
-        stage('installer erzeugen (jar)') {
-            steps {
-                sh 'cd ../WoPeD-IzPack'
-                sh 'mvn package'
-            }
-        }
-        stage('exe für installer erzeugen') {
-            steps {
-                sh 'exe für installer erzeugen'
             }
         }
     }

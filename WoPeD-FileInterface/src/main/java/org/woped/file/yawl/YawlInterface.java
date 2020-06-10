@@ -4,14 +4,17 @@
  */
 package org.woped.file.yawl;
 
-import jakarta.xml.bind.JAXBException;
-import org.woped.file.yawl.wfnet.AutoLayout;
-import org.woped.file.yawl.wfnet.WfNet;
-
-import java.awt.*;
+import java.awt.Toolkit;
 import java.awt.datatransfer.Clipboard;
 import java.awt.datatransfer.StringSelection;
 import java.io.File;
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+import javax.xml.bind.JAXBException;
+
+import org.woped.file.yawl.wfnet.AutoLayout;
+import org.woped.file.yawl.wfnet.WfNet;
 
 /**
  *
@@ -20,9 +23,9 @@ import java.io.File;
 public class YawlInterface {
 
     /**
-     * @param file the command line arguments
+     * @param args the command line arguments
      */
-    public static String importYawlFile(File file) throws JAXBException {
+    public static String importYawlFile(File file) {
         // TODO code application logic here
 
         //String path = "C:\\Users\\Chris\\Documents\\__pnml_yawl\\orsplit.yawl";
@@ -31,22 +34,30 @@ public class YawlInterface {
     	String output = "";
     	
         YawlImport yi = new YawlImport();
+        try {
 
-        WfNet wfNet = yi.importYawlXml(file);
+            WfNet wfNet = yi.importYawlXml(file);
 
-        YawlToPnmlTransform tf = new YawlToPnmlTransform(wfNet);
-        tf.Transform();
+            YawlToPnmlTransform tf = new YawlToPnmlTransform(wfNet);
+            tf.Transform();
+            
+            AutoLayout al =new AutoLayout(wfNet);
+            al.Layout();
 
-        AutoLayout al =new AutoLayout(wfNet);
-        al.Layout();
+            PnmlOutput po = new PnmlOutput(wfNet);
 
-        PnmlOutput po = new PnmlOutput(wfNet);
+            output = po.getPnmlOutput();
 
-        output = po.getPnmlOutput();
+            //setClipboardContents(output);
 
-        //setClipboardContents(output);
+            
 
-
+        } catch (JAXBException ex) {
+            Logger.getLogger(YawlInterface.class.getName()).log(Level.SEVERE, null, ex);
+        }
+        
+        
+        
         return output;
 
     }
