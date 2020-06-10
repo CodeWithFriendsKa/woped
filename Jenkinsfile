@@ -29,9 +29,9 @@ pipeline {
                 sh 'mvn package'
             }
         }
-        stage('exe für installer erzeugen') {
+        stage('exe fuer installer erzeugen') {
             steps {
-                sh 'exe für installer erzeugen'
+                sh 'exe fuer installer erzeugen'
             }
         }
     }
