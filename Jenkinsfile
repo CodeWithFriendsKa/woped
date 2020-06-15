@@ -9,6 +9,7 @@ pipeline {
     stages {
         stage('prepare') {
             steps {
+                sh 'whoami'
                 sh 'apk add lib32z1'
             }
         }
