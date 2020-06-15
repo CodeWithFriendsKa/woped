@@ -11,7 +11,7 @@ pipeline {
         stage('prepare') {
             steps {
                 sh 'whoami'
-                sh 'apk add lib32z1'
+                sh 'apk add zlib1g-dev libncurses5-dev lib32z1 lib32ncurses5'
             }
         }
         stage('test') {
