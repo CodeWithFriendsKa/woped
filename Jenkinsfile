@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('prepare') {
             steps {
-                sh 'apk install lib32z1'
+                sh 'apk add lib32z1'
             }
         }
         stage('test') {
