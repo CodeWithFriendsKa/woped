@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('prepare') {
             steps {
-                sh 'apt-get install lib32z1'
+                sh 'apt install lib32z1'
             }
         }
         stage('test') {
