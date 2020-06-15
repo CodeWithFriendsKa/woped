@@ -8,7 +8,7 @@
 	<packaging>jar</packaging>
 	<groupId>org.woped</groupId>
 	<version>0.0.1-SNAPSHOT</version>
- 
+
 	<name>WoPeD-Installer</name>
 
 	<properties>
@@ -22,6 +22,9 @@
 			<plugin>
 				<groupId>com.akathist.maven.plugins.launch4j</groupId>
 				<artifactId>launch4j-maven-plugin</artifactId>
+			</plugin>
+			<plugin>
+				<artifactId>maven-antrun-plugin</artifactId>
 			</plugin>
 		</plugins>
 
@@ -50,6 +53,24 @@
 									<minVersion>1.7.0</minVersion>
 									<jdkPreference>preferJre</jdkPreference>
 								</jre>
+							</configuration>
+						</execution>
+					</executions>
+				</plugin>
+				<plugin>
+					<artifactId>maven-antrun-plugin</artifactId>
+					<executions>
+						<execution>
+							<id>copy_woped_starter</id>
+							<phase>package</phase>
+							<goals>
+								<goal>run</goal>
+							</goals>
+							<configuration>
+								<tasks>
+									<copy file="${basedir}/target/WoPeD-Starter-${version}-jar-with-dependencies.jar" tofile="${basedir}/../WoPeD-IzPack/Linux/WoPeD-Starter.jar">
+									</copy>
+								</tasks>
 							</configuration>
 						</execution>
 					</executions>

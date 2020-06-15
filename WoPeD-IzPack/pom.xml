@@ -37,6 +37,9 @@
 								<copy todir="${izpack.staging}/doc">
 									<fileset dir="${basedir}/doc" />
 								</copy>
+								<copy todir="${izpack.staging}">
+									<fileset dir="${basedir}/Linux" />
+								</copy>
 							</tasks>
 						</configuration>
 					</execution>
