@@ -16,7 +16,6 @@
 	</guiprefs>
 	
 	<natives>
-	
 		<native type="izpack" name="ShellLink.dll">
 			<os family="windows" />
 		</native> 
@@ -43,6 +42,8 @@
 		<res id="Installer.image.6" src="shortcutPanel.png" />
 		<res id="Installer.image.7" src="finishPanel.png" />
 		<res id="installer.langsel.img" src="WoPeD-logo.jpg" />
+		<res id="packsLang.xml_eng" src="install-eng.xml" />
+		<res id="packsLang.xml_deu" src="install-deu.xml" />
 		<res id="shortcutSpec.xml" src="shortcut-win.xml" />
 		<res id="ProcessPanel.Spec.xml" src="process.xml" />
 	</resources>
@@ -60,30 +61,37 @@
 		<panel classname="HelloPanel"></panel>
 		<panel classname="InfoPanel"></panel>
 		<panel classname="LicencePanel"></panel>
-		<panel classname="PacksPanel"></panel>
 		<panel classname="TargetPanel"></panel>
+		<panel classname="PacksPanel"></panel>		
 		<panel classname="InstallPanel"></panel>
 		<panel classname="ShortcutPanel"></panel>
 		<panel classname="SimpleFinishPanel"></panel>
 	</panels>
 	
 	<packs>
-		<pack name="Executable" required="yes">
+		<pack name="Executable" required="yes" id="id1">
 			<description>Executable files</description>
-
-			<file src="WoPeD.exe" targetdir="$INSTALL_PATH">
-				<os family="windows" />
-			</file>
+			
+			<fileset dir="." targetdir="${INSTALL_PATH}" override="true">
+				<include name="WoPeD.exe" />
+			</fileset>
 		</pack>
 		
-		<pack name="PDF Documentation" required="no">
+		<pack name="PDF Documentation" required="no" id="id1">
 			<description>Additional manual and user doc files</description>
-			<file src="doc/pdf" targetdir="$INSTALL_PATH/doc" />			
+			
+			<fileset dir="." targetdir="${INSTALL_PATH}/doc" override="true">
+				<include name="doc/pdf/de/*" />
+				<include name="doc/pdf/en/*" />
+			</fileset>
 		</pack>
 		
-		<pack name="HTML Manual" required="no">
+		<pack name="HTML Manual" required="no" id="id1">
 			<description>Separate HTML Manual files</description>
-			<file src="doc/html" targetdir="$INSTALL_PATH/doc" />
+			
+			<fileset dir="." targetdir="${INSTALL_PATH}/doc" override="true">
+				<include name="doc/html/*" />
+			</fileset>
 		</pack>
 						
 	</packs>
