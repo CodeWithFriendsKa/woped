@@ -8,14 +8,12 @@ pipeline {
     }
 
     stages {
-        /*
         stage('prepare') {
             steps {
                 sh 'apk update'
                 sh 'apk add zlib-dev'
             }
         }
-        */
         stage('test') {
             steps {
                 sh 'mvn test'
