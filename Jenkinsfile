@@ -27,9 +27,14 @@ pipeline {
                 sh 'mvn test'
             }
         }
-        stage('deploy') {
+        stage('deploy jar') {
             steps {
                 sh 'mvn -s $MVN_SET deploy'
+            }
+        }
+        stage('deploy exe') {
+            steps {
+                sh 'mvn -s $MVN_SET deploy:deploy-file'
             }
         }
         /*
