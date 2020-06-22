@@ -14,14 +14,14 @@ pipeline {
                 sh 'apt-get install zlib1g'
             }
         }
-        stage('test') {
-            steps {
-                sh 'mvn test'
-            }
-        }
         stage('build') {
             steps {
                 sh 'mvn install'
+            }
+        }
+        stage('test') {
+            steps {
+                sh 'mvn test'
             }
         }
         stage('exe erzeugen') {
