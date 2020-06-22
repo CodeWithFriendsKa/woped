@@ -3,17 +3,19 @@ pipeline {
         docker {
             image 'maven:3-alpine'
             args '-v $HOME/.m2:/root/.m2'
-            args '-u root'
+            // args '-u root'
         }
     }
 
     stages {
+        /*
         stage('prepare') {
             steps {
                 sh 'apk update'
                 sh 'apk add zlib-dev'
             }
         }
+        */
         stage('test') {
             steps {
                 sh 'mvn test'
