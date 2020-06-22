@@ -10,8 +10,8 @@ pipeline {
     stages {
         stage('prepare') {
             steps {
-                sh 'apt update'
-                sh 'apt add zlib-dev'
+                sh 'apt-get update'
+                sh 'apt-get install zlib-dev'
             }
         }
         stage('test') {
