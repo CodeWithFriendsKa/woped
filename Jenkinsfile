@@ -1,4 +1,7 @@
 pipeline {
+    environment {
+        MVN_SET = credentials('nexus-credentials')
+    }
     agent {
         docker {
             image 'maven:3.6.3-jdk-8'
@@ -22,6 +25,11 @@ pipeline {
         stage('test') {
             steps {
                 sh 'mvn test'
+            }
+        }
+        stage('deploy') {
+            steps {
+                sh 'mvn -s $MVN_SET clean deploy'
             }
         }
         /*
