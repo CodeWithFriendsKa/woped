@@ -11,7 +11,7 @@ pipeline {
         stage('prepare') {
             steps {
                 sh 'apt-get update'
-                sh 'apt-get install zlib-dev'
+                sh 'apt-get install zlib1g'
             }
         }
         stage('test') {
