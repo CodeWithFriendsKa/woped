@@ -29,7 +29,7 @@ pipeline {
         }
         stage('deploy') {
             steps {
-                sh 'mvn -s $MVN_SET clean deploy'
+                sh 'mvn -s $MVN_SET deploy'
             }
         }
         /*
