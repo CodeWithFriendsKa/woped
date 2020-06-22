@@ -10,8 +10,8 @@ pipeline {
     stages {
         stage('prepare') {
             steps {
-                sh 'apk update'
-                sh 'apk add zlib-dev'
+                sh 'apt update'
+                sh 'apt add zlib-dev'
             }
         }
         stage('test') {
