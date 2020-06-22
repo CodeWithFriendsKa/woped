@@ -24,6 +24,7 @@ pipeline {
                 sh 'mvn test'
             }
         }
+        /*
         stage('exe erzeugen') {
             steps {
                 sh 'cd WoPed-Installer'
@@ -41,5 +42,6 @@ pipeline {
                 sh 'exe fuer installer erzeugen'
             }
         }
+        */
     }
 }
