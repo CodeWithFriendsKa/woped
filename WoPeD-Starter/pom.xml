@@ -114,8 +114,6 @@
 		</pluginManagement>
 	</build>
 
-
-
 	<dependencies>
 		<dependency>
 			<groupId>org.woped</groupId>
