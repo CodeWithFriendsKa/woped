@@ -100,9 +100,19 @@
 			<plugin>
 				<groupId>org.apache.maven.plugins</groupId>
 				<artifactId>maven-deploy-plugin</artifactId>
-				<version>2.7</version>
+				<version>2.6</version>
+				<goals>
+					<goal>deploy-file</goal>
+				</goals>
 				<configuration>
-					<skip>true</skip>
+					<repositoryId>nexus-snapshots</repositoryId>
+					<packaging>exe</packaging>
+					<generatePom>true</generatePom>
+					<url>${project.distributionManagement.snapshotRepository.url}</url>
+					<artifactId>${project.artifactId}</artifactId>
+					<groupId>${project.groupId}</groupId>
+					<version>${project.version}</version>
+					<file>${WORKSPACE}/WoPeD-IzPack/target/WoPeD-Installer.exe</file>
 				</configuration>
 			</plugin>
 		</plugins>
