@@ -8,7 +8,7 @@
 	<packaging>jar</packaging>
 	<groupId>org.woped</groupId>
 	<version>0.0.1-SNAPSHOT</version>
- 
+
 	<name>WoPeD-Installer</name>
 
 	<properties>
@@ -17,11 +17,20 @@
 		<maven.compiler.source>1.8</maven.compiler.source>
 	</properties>
 
+	<dependencies>
+		<dependency>
+			<groupId>com.akathist.maven.plugins.launch4j</groupId>
+			<artifactId>launch4j-maven-plugin</artifactId>
+			<version>1.7.25</version>
+		</dependency>
+	</dependencies>
+
 	<build>
 		<plugins>
 			<plugin>
 				<groupId>com.akathist.maven.plugins.launch4j</groupId>
 				<artifactId>launch4j-maven-plugin</artifactId>
+				<version>1.7.25</version>
 			</plugin>
 		</plugins>
 
@@ -39,7 +48,7 @@
 							</goals>
 							<configuration>
 								<headerType>gui</headerType>
-								<jar>target/WoPeD-Starter-0.0.1-SNAPSHOT-jar-with-dependencies.jar</jar>
+								<jar>target/WoPeD-Starter.jar</jar>
 								<outfile>./../WoPeD-IzPack/Windows/WoPeD.exe</outfile>
 								<priority>normal</priority>
 								<customProcName>false</customProcName>
@@ -58,11 +67,5 @@
 		</pluginManagement>
 	</build>
 
-	<dependencies>
-		<dependency>
-			<groupId>com.akathist.maven.plugins.launch4j</groupId>
-			<artifactId>launch4j-maven-plugin</artifactId>
-			<version>1.7.25</version>
-		</dependency>
-	</dependencies>
+
 </project>
